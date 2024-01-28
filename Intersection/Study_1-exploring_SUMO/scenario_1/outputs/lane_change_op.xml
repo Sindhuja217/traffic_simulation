@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-15 17:15:55 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\intersec.net.xml"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\intersec2.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\outputs/fcd_op.xml"/>
+        <fcd-output.geo value="true"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <summary-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\outputs/sum_op.xml"/>
+        <lanechange-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\outputs/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\outputs/collision.xml"/>
+        <statistic-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_1\outputs/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.stoptime value="30.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<lanechanges>
+    <change id="v_4" type="col_cfm" time="2.40" from="-E1_1" to="-E1_2" dir="1" speed="0.75" pos="6.52" reason="cooperative|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="193.48" y="4.80"/>
+    <change id="v_1" type="col_veh_ego" time="2.50" from="-E1_0" to="-E1_1" dir="1" speed="5.74" pos="7.51" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="192.49" y="8.00"/>
+    <change id="v_1" type="col_veh_ego" time="3.90" from="-E1_1" to="-E1_2" dir="1" speed="8.97" pos="17.96" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="2.75" followerSecureGap="0.00" followerSpeed="3.93" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="182.04" y="4.80"/>
+    <change id="v_9" type="DEFAULT_VEHTYPE" time="6.10" from="E2_2" to="E2_1" dir="-1" speed="2.51" pos="6.65" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="98.40" y="93.35"/>
+    <change id="v_9" type="DEFAULT_VEHTYPE" time="7.70" from="E2_1" to="E2_0" dir="-1" speed="5.88" pos="13.72" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="95.20" y="86.28"/>
+    <change id="v_6" type="DEFAULT_VEHTYPE" time="12.40" from="E0_2" to="E0_1" dir="-1" speed="0.00" pos="85.40" reason="keepRight" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="85.40" y="-1.60"/>
+    <change id="v_10" type="DEFAULT_VEHTYPE" time="12.80" from="-E3_1" to="-E3_0" dir="-1" speed="5.85" pos="13.99" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="104.80" y="-86.01"/>
+    <change id="v_5" type="DEFAULT_VEHTYPE" time="16.50" from="E0_1" to="E0_2" dir="1" speed="3.24" pos="7.81" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="72.59" origLeaderSecureGap="4.25" origLeaderSpeed="0.00" x="7.81" y="-4.80"/>
+</lanechanges>

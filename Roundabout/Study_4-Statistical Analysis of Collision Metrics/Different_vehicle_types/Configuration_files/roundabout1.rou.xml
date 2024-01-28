@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="aggressive" maxSpeed="35" accel="5" decel="5" emergencyDecel="8" minGap="4" tau="0.1" collisionMinGapFactor="0.5" impatience="0.0" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedgain="1.0" lcPushy="0.0" lcImpatience="0.00" jmIgnoreFoeProb="0.0" carFollowModel="EIDM" sigmagap="0.10" sigmaerror="0.04" color="1.0,0.0,0.0"/>
+    <vType id="speeder" maxSpeed="40" accel="4" decel="5" emergencyDecel="7" minGap="5" tau="1.75" collisionMinGapFactor="0.0" impatience="1" lcStrategic="1.0" lcCooperative="0.0" lcSppedGain="2.0" lcKeepRight="0.0" color="1.0,1.0,0.0"/>
+    <vType id="tailgater" maxSpeed="25" accel="2" decel="2" emergencyDecel="6" minGap="1" tau="0.25" collisionMinGapFactor="0.0" impatience="1" lcStrategic="1.0" lcCooperative="0.0" lcSppedGain="1.5" lcKeepRight="0.0" color="0.0,1.0,0.0"/>
+    <vType id="passive" maxSpeed="20" accel="1" decel="2" emergencyDecel="3" minGap="6" tau="1.75" collisionMinGapFactor="0.0" color="0.0,0.0,1.0"/>
+    
+
+    <flow id="flow_aggressive0" type="aggressive" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_speeder0" type="speeder" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_tailgater0" type="tailgater" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_passive0" type="passive" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="1800"/>
+    
+    <flow id="flow_aggressive1" type="aggressive" begin="0.00" from="-E32" to="E30" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_speeder1" type="speeder" begin="0.00" from="-E32" to="E30" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_tailgater1" type="tailgater" begin="0.00" from="-E32" to="E30" end="200.00" vehsPerHour="1800"/>
+    <flow id="flow_passive1" type="passive" begin="0.00" from="-E32" to="E30" end="200.00" vehsPerHour="1800"/>
+
+</routes>    

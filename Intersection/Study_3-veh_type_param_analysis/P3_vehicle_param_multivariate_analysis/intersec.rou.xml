@@ -1,0 +1,26 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <vTypeDistribution id="vd1">
+        <vType id="ego_veh" guiShape="passenger" carFollowModel="EIDM" color="red" probability="0.5" accel="5" decel="6" tau="0.1" sigmaerror="0" emergencyDecel="8.0" maxSpeed="41.67" />
+        <vType id="default" guiShape="passenger" carFollowModel="Krauss" color="yellow" probability="0.5" />
+    </vTypeDistribution>
+    
+    
+    <routeDistribution id="rd1">
+        <route id="r_0" edges="-E1 -E0" probability="0.4" />
+        <route id="r_1" edges="E0 E1" probability="0.3" />
+        <route id="r_2" edges="-E3 E1" probability="0.4" />
+        <route id="r_3" edges="-E1 -E2" probability="0.6" />
+        <route id="r_4" edges="-E3 -E2" probability="0.5" />
+        <route id="r_5" edges="E2 E3" probability="0.4" />
+        <route id="r_6" edges="-E1 E3" probability="0.6" />
+        <route id="r_7" edges="E2 E1" probability="0.4" />
+        <route id="r_8" edges="E0 -E2" probability="0.6" />
+        <route id="r_9" edges="-E3 -E0" probability="0.6" />
+        <route id="r_10" edges="E2 -E0" probability="0.7" />
+        <route id="r_11" edges="E0 E3" probability="0.3" />
+    </routeDistribution>
+
+    <flow id="myflow" type="vd1" route="rd1" begin="0" end="200" number="100">
+    </flow>
+</routes>

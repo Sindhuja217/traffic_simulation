@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-14 01:21:05 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.net.xml.gz"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.passenger.rou.xml"/>
+        <additional-files value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.poly.xml.gz"/>
+    </input>
+
+    <output>
+        <emission-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/em_op.xml"/>
+        <fcd-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/fcd_op.xml"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <full-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/full_op.xml"/>
+        <summary-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/sum_op.xml"/>
+        <lanechange-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/collisions.xml"/>
+        <statistic-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <collision.action value="remove"/>
+        <collision.stoptime value="2.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<lanechanges>
+    <change id="ego_vehicle" type="ego" time="2.20" from="41183912#0_0" to="41183912#0_1" dir="1" speed="4.25" pos="7.08" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="333.42" y="248.68"/>
+    <change id="non_ego_flow.1" type="non-ego" time="3.30" from="1024002010_0" to="1024002010_1" dir="1" speed="2.14" pos="6.18" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="351.26" y="92.11"/>
+    <change id="non_ego_flow.2" type="non-ego" time="4.10" from="41183912#0_0" to="41183912#0_1" dir="1" speed="0.01" pos="5.10" reason="strategic" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="335.00" y="249.86"/>
+    <change id="non_ego_flow.1" type="non-ego" time="4.30" from="1024002010_1" to="1024002010_2" dir="1" speed="4.61" pos="9.70" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="346.58" y="91.30"/>
+    <change id="non_ego_flow.4" type="non-ego" time="8.10" from="41183912#0_0" to="41183912#0_1" dir="1" speed="0.01" pos="5.10" reason="strategic" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="335.00" y="249.86"/>
+    <change id="non_ego_flow.6" type="non-ego" time="12.10" from="-41183908#2_0" to="-41183908#2_1" dir="1" speed="0.01" pos="5.10" reason="strategic" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="35.99" origLeaderSecureGap="0.00" origLeaderSpeed="12.79" x="145.46" y="2.08"/>
+</lanechanges>

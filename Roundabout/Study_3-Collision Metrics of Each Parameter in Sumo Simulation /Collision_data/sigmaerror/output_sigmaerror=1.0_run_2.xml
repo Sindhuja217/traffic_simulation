@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-16 21:21:53 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE 699/(No subject)/new.net.xml"/>
+        <route-files value="simulation_outputs/modified_EGO_VEHTYPE_sigmaerror=1.0.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="simulation_outputs/output_sigmaerror=1.0_run_2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="55260"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="37.00" type="collision" lane="-E29_0" pos="78.82" collider="f_0_ego.3" victim="f_0_ego.2" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="1.78" victimSpeed="1.22"/>
+    <collision time="53.00" type="collision" lane="-E32_0" pos="63.61" collider="f_1_ego.6" victim="f_1_default.6" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="15.46" victimSpeed="2.79"/>
+    <collision time="83.00" type="collision" lane="E28_1" pos="8.25" collider="f_1_ego.10" victim="f_1_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="8.45" victimSpeed="3.18"/>
+    <collision time="146.00" type="collision" lane="E28_1" pos="59.20" collider="f_0_ego.9" victim="f_1_default.9" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="8.65" victimSpeed="2.96"/>
+    <collision time="153.00" type="collision" lane="E28_1" pos="4.94" collider="f_1_ego.14" victim="f_1_ego.8" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="15.93" victimSpeed="1.15"/>
+</collisions>

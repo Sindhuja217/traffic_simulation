@@ -1,0 +1,12 @@
+{
+  "1": {"accel": 1, "decel": 3},
+  "2": {"accel": 2, "decel": 3.5},
+  "3": {"accel": 2, "decel": 4},
+  "4": {"accel": 2.6, "decel": 4.5},
+  "5": {"accel": 2.6, "decel": 5},
+  "6": {"accel": 3, "decel": 5},
+  "7": {"accel": 3.5, "decel": 6},
+  "8": {"accel": 4, "decel": 5},
+  "9": {"accel": 5, "decel": 5},
+  "10": {"accel": 5, "decel": 6}
+}

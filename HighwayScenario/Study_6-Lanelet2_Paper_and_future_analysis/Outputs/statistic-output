@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-13 19:39:38 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Highway_route.net.xml"/>
+        <route-files value="Highway.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd-output.xml"/>
+        <fcd-output.geo value="true"/>
+        <amitran-output value="trajectory"/>
+        <collision-output value="collision-output"/>
+        <statistic-output value="statistic-output"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="40"/>
+    </processing>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="75213.01" clockEnd="75221.39" clockDuration="8.39" traciDuration="0.00" realTimeFactor="47.23" vehicleUpdatesPerSecond="1859.51" personUpdatesPerSecond="0.00" begin="0.00" end="396.00" duration="396.00"/>
+    <vehicles loaded="1848" inserted="577" running="40" waiting="1271"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="20" emergencyStops="2" emergencyBraking="3"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+</statistics>

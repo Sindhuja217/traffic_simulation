@@ -1,0 +1,4 @@
+time,type,lane,pos,collider,victim,colliderType,victimType,colliderSpeed,victimSpeed
+357.9,collision,E2_0,184.77,myflow.34,myflow.32,aggressive,tailgater,14.36,0.00
+358.3,collision,E2_0,189.60,myflow.32,myflow.34,tailgater,aggressive,0.00,13.67
+775.1,junction,:J2_7_0,5.97,myflow.71,myflow.72,normal,normal,4.54,2.48

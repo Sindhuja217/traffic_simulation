@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vTypeDistribution id="vd1">
+        <vType id="aggressive" guiShape="passenger" carFollowModel="EIDM" color="red" probability="0.2" tau="0.1" minGap="1" accel="5" decel="5" sigmaerror="0.5" maxSpeed="41.67" emergencyDecel="7" jmDriveRedSpeed="10" jmDriveAfterRedTime="4" jmDriveAfterYellowTime="4" lcCooperative="-1" lcSpeedGain="10" />
+        <vType id="normal" guiShape="passenger" carFollowModel="EIDM" color="blue" probability="0.2" tau="1.5" minGap="2.5" accel="2.6" decel="4.5" sigmaerror="0.1" maxSpeed="33.33" emergencyDecel="4.5" />
+        <vType id="passive" guiShape="passenger" carFollowModel="EIDM" color="green" probability="0.2" tau="1.5" minGap="5" accel="1" decel="3" sigmaerror="0.1" maxSpeed="8.33" emergencyDecel="3" />
+        <vType id="speeder" guiShape="passenger" carFollowModel="EIDM" color="yellow" probability="0.2" tau="1.5" minGap="2.5" accel="5" decel="6" sigmaerror="0.1" maxSpeed="41.67" emergencyDecel="6" />
+        <vType id="tailgater" guiShape="passenger" carFollowModel="EIDM" color="orange" probability="0.2" tau="0.1" minGap="1" accel="3" decel="5" sigmaerror="0.5" maxSpeed="33.33" emergencyDecel="7" />
+        <vType id="violator" guiShape="passenger" carFollowModel="EIDM" color="black" probability="0.2" tau="0.1" minGap="1" accel="3" decel="5" sigmaerror="0.5" maxSpeed="33.33" emergencyDecel="7" jmDriveRedSpeed="10" jmDriveAfterRedTime="4" jmDriveAfterYellowTime="4" />
+        <vType id="zigzagger" guiShape="passenger" carFollowModel="EIDM" color="white" probability="0.2" tau="0.1" minGap="1" accel="3" decel="5" sigmaerror="0.5" maxSpeed="33.33" emergencyDecel="7" lcCooperative="-1" lcSpeedGain="10" />
+    </vTypeDistribution>
+    
+    <!-- Routes -->
+    <routeDistribution id="rd1">
+        <route id="r_0" edges="-E1 -E0" probability="0.6"/>
+        <route id="r_1" edges="E0 E1" probability="0.3"/>
+        <route id="r_10" edges="-E3 E1" probability="0.5"/>
+        <route id="r_11" edges="-E1 -E2" probability="0.5"/>
+        <route id="r_2" edges="-E3 -E2" probability="0.5"/>
+        <route id="r_3" edges="E2 E3" probability="0.4"/>
+        <route id="r_4" edges="-E1 E3" probability="0.4"/>
+        <route id="r_5" edges="E2 E1" probability="0.5"/>
+        <route id="r_6" edges="E0 -E2" probability="0.7"/>
+        <route id="r_7" edges="-E3 -E0" probability="0.4"/>
+        <route id="r_8" edges="E2 -E0" probability="0.6"/>
+        <route id="r_9" edges="E0 E3" probability="0.6"/>
+    </routeDistribution>
+
+    <flow id="myflow" type='vd1' route='rd1' begin="0" end="200" number="100">
+    </flow>
+</routes>

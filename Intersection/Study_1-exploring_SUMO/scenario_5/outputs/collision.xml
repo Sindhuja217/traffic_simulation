@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-15 17:18:51 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\scene5.net.xml"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\sc5.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\outputs/fcd_op.xml"/>
+        <fcd-output.geo value="true"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <summary-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\outputs/sum_op.xml"/>
+        <lanechange-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\outputs/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\outputs/collision.xml"/>
+        <statistic-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_5\outputs/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.stoptime value="60.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="75.30" type="collision" lane="-E2_1" pos="13.73" collider="f_0.28" victim="f_0.27" colliderType="col_1" victimType="col_1" colliderSpeed="2.00" victimSpeed="1.75"/>
+</collisions>

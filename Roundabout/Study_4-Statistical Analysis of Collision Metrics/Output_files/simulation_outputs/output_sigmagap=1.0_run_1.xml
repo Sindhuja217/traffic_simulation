@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-16 18:07:43 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE 699/(No subject)/new.net.xml"/>
+        <route-files value="simulation_outputs/modified_EGO_VEHTYPE_sigmagap=1.0.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="simulation_outputs/output_sigmagap=1.0_run_1.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="53067"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="83.00" type="collision" lane="E27_1" pos="130.85" collider="f_0_ego.3" victim="f_0_ego.2" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="4.29" victimSpeed="1.31"/>
+    <collision time="156.00" type="collision" lane="E28_0" pos="116.97" collider="f_1_ego.17" victim="f_0_ego.1" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="3.54" victimSpeed="0.99"/>
+    <collision time="378.00" type="collision" lane="E28_0" pos="63.36" collider="f_0_ego.27" victim="f_0_ego.32" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="6.14" victimSpeed="2.20"/>
+</collisions>

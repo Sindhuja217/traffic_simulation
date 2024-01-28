@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-16 21:39:27 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE 699/(No subject)/new.net.xml"/>
+        <route-files value="simulation_outputs/modified_EGO_VEHTYPE_collisionMinGapFactor=3.0.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="simulation_outputs/output_collisionMinGapFactor=3.0_run_3.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="55541"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="10.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.1" victim="f_0_default.1" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.12"/>
+    <collision time="12.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.1" victim="f_1_default.1" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.55"/>
+    <collision time="29.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.4" victim="f_0_default.4" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.44"/>
+    <collision time="31.00" type="collision" lane="E27_0" pos="133.13" collider="f_0_ego.0" victim="f_0_default.0" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.87" victimSpeed="0.00"/>
+    <collision time="31.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.4" victim="f_1_default.4" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.44"/>
+    <collision time="33.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.5" victim="f_0_default.5" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.50"/>
+    <collision time="35.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.5" victim="f_1_default.5" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.50"/>
+    <collision time="39.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.6" victim="f_0_default.6" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.23"/>
+    <collision time="40.00" type="collision" lane="E27_0" pos="104.70" collider="f_0_ego.2" victim="f_0_ego.4" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="7.05" victimSpeed="4.86"/>
+    <collision time="41.00" type="collision" lane="E27_0" pos="118.17" collider="f_0_ego.4" victim="f_0_default.2" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.72" victimSpeed="0.00"/>
+    <collision time="45.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.7" victim="f_0_default.7" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.90"/>
+    <collision time="46.00" type="collision" lane="E27_0" pos="111.33" collider="f_0_ego.3" victim="f_0_default.3" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.09" victimSpeed="0.52"/>
+    <collision time="46.00" type="collision" lane="E27_1" pos="132.30" collider="f_0_ego.5" victim="f_0_ego.1" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="3.13" victimSpeed="0.00"/>
+    <collision time="47.00" type="collision" lane="E28_0" pos="104.47" collider="f_0_ego.2" victim="f_0_ego.4" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="3.49" victimSpeed="2.23"/>
+    <collision time="47.00" type="collision" lane="E28_0" pos="93.96" collider="f_1_ego.3" victim="f_0_ego.2" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="8.77" victimSpeed="3.49"/>
+    <collision time="48.00" type="collision" lane="E28_0" pos="106.21" collider="f_0_ego.5" victim="f_0_ego.4" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="2.23" victimSpeed="2.23"/>
+    <collision time="48.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.7" victim="f_1_default.7" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.44"/>
+    <collision time="49.00" type="collision" lane="E27_0" pos="103.90" collider="f_0_ego.6" victim="f_0_default.4" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.06" victimSpeed="1.12"/>
+    <collision time="50.00" type="collision" lane="E27_0" pos="49.22" collider="f_0_ego.7" victim="f_0_default.6" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="11.52" victimSpeed="17.90"/>
+    <collision time="51.00" type="collision" lane="E28_0" pos="5.00" collider="f_0_ego.7" victim="f_0_ego.6" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="2.18" victimSpeed="7.79"/>
+    <collision time="51.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.8" victim="f_0_default.8" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.22"/>
+    <collision time="52.00" type="collision" lane="E26_0" pos="28.91" collider="f_1_ego.2" victim="f_1_ego.4" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="10.41" victimSpeed="13.82"/>
+    <collision time="57.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.9" victim="f_0_default.9" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.04"/>
+    <collision time="59.00" type="collision" lane="E27_0" pos="82.15" collider="f_0_ego.8" victim="f_0_default.7" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="7.62" victimSpeed="4.12"/>
+    <collision time="60.00" type="collision" lane="E28_0" pos="122.62" collider="f_1_ego.7" victim="f_0_ego.3" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="6.50" victimSpeed="4.39"/>
+    <collision time="63.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.10" victim="f_0_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.04"/>
+    <collision time="67.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.10" victim="f_1_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.37"/>
+    <collision time="69.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.11" victim="f_0_default.11" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.63"/>
+    <collision time="71.00" type="collision" lane="E27_1" pos="125.30" collider="f_0_ego.9" victim="f_0_default.2" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.14" victimSpeed="0.00"/>
+    <collision time="71.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.11" victim="f_1_default.11" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.05"/>
+    <collision time="75.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.12" victim="f_0_default.12" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.96"/>
+    <collision time="78.00" type="collision" lane="E27_1" pos="116.35" collider="f_0_ego.10" victim="f_0_default.4" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.87" victimSpeed="0.00"/>
+    <collision time="80.00" type="collision" lane="E27_0" pos="72.50" collider="f_0_ego.11" victim="f_0_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.11" victimSpeed="0.56"/>
+    <collision time="80.00" type="collision" lane="E28_0" pos="129.80" collider="f_0_ego.9" victim="f_1_ego.10" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.84" victimSpeed="3.12"/>
+    <collision time="81.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.13" victim="f_0_default.13" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.72"/>
+    <collision time="84.00" type="collision" lane="E27_0" pos="66.86" collider="f_0_ego.12" victim="f_0_default.11" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="1.91"/>
+    <collision time="84.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.13" victim="f_1_default.13" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.26"/>
+    <collision time="86.00" type="collision" lane="E28_0" pos="123.52" collider="f_1_ego.9" victim="f_1_default.9" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.13" victimSpeed="0.40"/>
+    <collision time="87.00" type="collision" lane="E28_0" pos="123.60" collider="f_0_ego.12" victim="f_1_default.9" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.40" victimSpeed="0.40"/>
+    <collision time="88.00" type="collision" lane="E28_0" pos="15.13" collider="f_0_ego.1" victim="f_0_default.0" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="7.88" victimSpeed="12.61"/>
+    <collision time="90.00" type="collision" lane="E28_0" pos="106.94" collider="f_0_ego.10" victim="f_1_default.11" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="7.15" victimSpeed="3.44"/>
+    <collision time="94.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.15" victim="f_0_default.15" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.26"/>
+    <collision time="95.00" type="collision" lane="E27_1" pos="117.86" collider="f_0_ego.13" victim="f_0_default.6" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.99" victimSpeed="0.00"/>
+    <collision time="96.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.15" victim="f_1_default.15" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="4.93"/>
+    <collision time="97.00" type="collision" lane="E28_0" pos="122.19" collider="f_0_ego.11" victim="f_1_default.12" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.98" victimSpeed="0.55"/>
+    <collision time="99.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.16" victim="f_0_default.16" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.96"/>
+    <collision time="105.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.17" victim="f_0_default.17" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.00"/>
+    <collision time="106.00" type="collision" lane="E27_1" pos="109.01" collider="f_0_ego.15" victim="f_0_default.8" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.01" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="E27_0" pos="65.70" collider="f_0_ego.16" victim="f_0_default.14" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.28" victimSpeed="0.21"/>
+    <collision time="108.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.17" victim="f_1_default.17" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="4.62"/>
+    <collision time="109.00" type="collision" lane="E28_0" pos="120.34" collider="f_1_ego.15" victim="f_1_default.13" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="6.47" victimSpeed="3.42"/>
+    <collision time="110.00" type="collision" lane="E27_0" pos="65.20" collider="f_0_ego.14" victim="f_0_default.14" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.89" victimSpeed="0.03"/>
+    <collision time="111.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.18" victim="f_0_default.18" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.26"/>
+    <collision time="113.00" type="collision" lane="E26_0" pos="132.70" collider="f_1_ego.13" victim="f_1_default.11" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.35" victimSpeed="4.56"/>
+    <collision time="116.00" type="collision" lane="E27_1" pos="102.36" collider="f_0_ego.17" victim="f_0_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.74" victimSpeed="0.00"/>
+    <collision time="118.00" type="collision" lane="E28_0" pos="120.83" collider="f_1_ego.14" victim="f_0_ego.15" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.42" victimSpeed="4.92"/>
+    <collision time="121.00" type="collision" lane="E26_0" pos="132.42" collider="f_1_ego.14" victim="f_1_ego.15" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="7.29" victimSpeed="5.89"/>
+    <collision time="123.00" type="collision" lane="E28_0" pos="111.73" collider="f_0_ego.14" victim="f_1_default.16" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.52" victimSpeed="2.29"/>
+    <collision time="124.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.20" victim="f_0_default.20" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.03"/>
+    <collision time="127.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.20" victim="f_1_default.20" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="4.60"/>
+    <collision time="129.00" type="collision" lane="E27_1" pos="110.36" collider="f_0_ego.18" victim="f_0_default.10" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.30" victimSpeed="0.27"/>
+    <collision time="130.00" type="collision" lane="E28_0" pos="9.28" collider="f_1_ego.18" victim="f_0_ego.18" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.05" victimSpeed="9.78"/>
+    <collision time="131.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.21" victim="f_1_default.21" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.89"/>
+    <collision time="135.00" type="collision" lane="E27_1" pos="96.47" collider="f_0_ego.20" victim="f_0_default.13" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.42" victimSpeed="0.58"/>
+    <collision time="136.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.22" victim="f_0_default.22" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.45"/>
+    <collision time="138.00" type="collision" lane="E27_0" pos="48.32" collider="f_0_ego.19" victim="f_0_default.19" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.93" victimSpeed="2.18"/>
+    <collision time="138.00" type="collision" lane="E26_0" pos="135.50" collider="f_1_ego.17" victim="f_1_ego.18" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="6.23" victimSpeed="4.48"/>
+    <collision time="139.00" type="collision" lane="E28_0" pos="95.43" collider="f_0_ego.18" victim="f_0_ego.19" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="1.30" victimSpeed="4.06"/>
+    <collision time="141.00" type="collision" lane="E27_0" pos="41.15" collider="f_0_ego.22" victim="f_0_default.20" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="6.12" victimSpeed="4.18"/>
+    <collision time="141.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.23" victim="f_0_default.23" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.07"/>
+    <collision time="143.00" type="collision" lane="E28_0" pos="103.77" collider="f_0_ego.20" victim="f_1_default.19" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.16" victimSpeed="4.63"/>
+    <collision time="144.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.23" victim="f_1_default.23" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.02"/>
+    <collision time="147.00" type="collision" lane="E27_0" pos="35.37" collider="f_0_ego.21" victim="f_0_default.21" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.84" victimSpeed="0.47"/>
+    <collision time="152.00" type="collision" lane="E27_1" pos="94.27" collider="f_0_ego.23" victim="f_0_default.15" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.46" victimSpeed="1.68"/>
+    <collision time="153.00" type="collision" lane="E28_0" pos="10.67" collider="f_1_ego.22" victim="f_0_ego.23" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.62" victimSpeed="10.27"/>
+    <collision time="156.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.25" victim="f_1_default.25" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.52"/>
+    <collision time="157.00" type="collision" lane="E28_0" pos="118.02" collider="f_0_ego.21" victim="f_1_default.22" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.12" victimSpeed="0.46"/>
+    <collision time="161.00" type="collision" lane="E28_0" pos="102.14" collider="f_0_ego.23" victim="f_0_default.1" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.95" victimSpeed="1.45"/>
+    <collision time="161.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.26" victim="f_0_default.26" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.06"/>
+    <collision time="164.00" type="collision" lane="E26_0" pos="125.13" collider="f_1_ego.22" victim="f_1_default.19" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="7.75" victimSpeed="4.80"/>
+    <collision time="165.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.27" victim="f_0_default.27" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.74"/>
+    <collision time="168.00" type="collision" lane="E27_0" pos="35.62" collider="f_0_ego.24" victim="f_0_default.24" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.87" victimSpeed="0.38"/>
+    <collision time="170.00" type="collision" lane="E27_1" pos="86.88" collider="f_0_ego.26" victim="f_0_default.18" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.78" victimSpeed="0.00"/>
+    <collision time="171.00" type="collision" lane="E28_0" pos="112.77" collider="f_0_ego.24" victim="f_1_default.24" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.61" victimSpeed="1.97"/>
+    <collision time="172.00" type="collision" lane="E27_0" pos="28.80" collider="f_0_ego.25" victim="f_0_default.25" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.30" victimSpeed="0.15"/>
+    <collision time="173.00" type="collision" lane="E28_0" pos="5.00" collider="f_0_ego.25" victim="f_0_ego.26" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.43" victimSpeed="7.44"/>
+    <collision time="175.00" type="collision" lane="E27_1" pos="87.82" collider="f_0_ego.27" victim="f_0_default.18" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="2.74" victimSpeed="0.00"/>
+    <collision time="175.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.28" victim="f_1_default.28" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="6.64"/>
+    <collision time="176.00" type="collision" lane="E28_0" pos="4.42" collider="f_1_ego.26" victim="f_0_ego.27" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.45" victimSpeed="13.31"/>
+    <collision time="177.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.29" victim="f_0_default.29" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.08"/>
+    <collision time="179.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.29" victim="f_1_default.29" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.95"/>
+    <collision time="181.00" type="collision" lane="E28_0" pos="116.58" collider="f_0_ego.26" victim="f_1_default.26" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="5.93" victimSpeed="2.56"/>
+    <collision time="185.00" type="collision" lane="E27_1" pos="71.56" collider="f_0_ego.29" victim="f_0_default.20" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.98" victimSpeed="0.00"/>
+    <collision time="186.00" type="collision" lane="E28_0" pos="119.91" collider="f_1_ego.28" victim="f_0_ego.27" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.77" victimSpeed="5.26"/>
+    <collision time="188.00" type="collision" lane="E27_0" pos="20.44" collider="f_0_ego.28" victim="f_0_default.28" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.78" victimSpeed="0.60"/>
+    <collision time="189.00" type="collision" lane="E28_0" pos="5.00" collider="f_0_ego.28" victim="f_1_default.29" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.95" victimSpeed="9.16"/>
+    <collision time="190.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.31" victim="f_0_default.31" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.63"/>
+    <collision time="192.00" type="collision" lane="-E32_0" pos="5.10" collider="f_1_ego.31" victim="f_1_default.31" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.89"/>
+    <collision time="194.00" type="collision" lane="E28_0" pos="130.93" collider="f_0_ego.29" victim="f_1_ego.29" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="5.23" victimSpeed="3.25"/>
+    <collision time="198.00" type="collision" lane="E27_1" pos="64.63" collider="f_0_ego.31" victim="f_0_default.23" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.44" victimSpeed="0.00"/>
+    <collision time="199.00" type="collision" lane="E27_0" pos="10.36" collider="f_0_ego.30" victim="f_0_default.30" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.38" victimSpeed="2.18"/>
+    <collision time="200.00" type="collision" lane="E28_0" pos="2.07" collider="f_1_ego.30" victim="f_0_ego.30" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="4.90" victimSpeed="11.46"/>
+    <collision time="202.00" type="collision" lane="-E29_0" pos="5.10" collider="f_0_ego.33" victim="f_0_default.33" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.62"/>
+    <collision time="208.00" type="collision" lane="E28_0" pos="123.02" collider="f_0_ego.31" victim="f_1_default.30" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.47" victimSpeed="3.35"/>
+    <collision time="209.00" type="collision" lane="E27_0" pos="3.88" collider="f_0_ego.32" victim="f_0_default.32" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.39" victimSpeed="1.60"/>
+    <collision time="209.00" type="collision" lane="E27_1" pos="56.46" collider="f_0_ego.33" victim="f_0_default.25" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="4.07" victimSpeed="0.00"/>
+    <collision time="215.00" type="collision" lane="E26_0" pos="136.44" collider="f_1_ego.27" victim="f_1_ego.30" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="6.19" victimSpeed="5.05"/>
+</collisions>

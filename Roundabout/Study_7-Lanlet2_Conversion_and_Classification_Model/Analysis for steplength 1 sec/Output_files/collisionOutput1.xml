@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-08 23:21:08 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/new.net.xml"/>
+        <route-files value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/new.rou1.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/fcd_output1.xml"/>
+        <full-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/FinalOutput1.xml"/>
+        <summary-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/summary_output1.xml"/>
+        <lanechange-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/lanechange_output1.xml"/>
+        <collision-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/collisionOutput1.xml"/>
+        <statistic-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/statistics_output1.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="50"/>
+    </processing>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="5.00" type="collision" lane="-E30_0" pos="58.44" collider="flow_speeder_N.0" victim="flow_aggressive_N.0" colliderType="speeder" victimType="aggressive" colliderSpeed="14.09" victimSpeed="9.59"/>
+    <collision time="8.00" type="collision" lane="-E31_1" pos="77.54" collider="flow_inexperienced_E.0" victim="flow_aggressive_E.0" colliderType="inexperienced" victimType="aggressive" colliderSpeed="8.48" victimSpeed="3.62"/>
+    <collision time="8.00" type="collision" lane="-E30_0" pos="72.92" collider="flow_tailgater_N.0" victim="flow_passive_N.0" colliderType="tailgater" victimType="passive" colliderSpeed="10.45" victimSpeed="8.49"/>
+    <collision time="9.00" type="collision" lane="-E29_0" pos="46.58" collider="flow_passive_W.0" victim="flow_speeder_W.1" colliderType="passive" victimType="speeder" colliderSpeed="11.11" victimSpeed="0.00"/>
+    <collision time="9.00" type="collision" lane="-E31_0" pos="82.85" collider="flow_tailgater_E.0" victim="flow_distracted_E.0" colliderType="tailgater" victimType="distracted" colliderSpeed="3.81" victimSpeed="0.00"/>
+    <collision time="9.00" type="collision" lane="-E30_0" pos="43.59" collider="flow_tailgater_N.1" victim="flow_speeder_N.1" colliderType="tailgater" victimType="speeder" colliderSpeed="9.90" victimSpeed="6.52"/>
+    <collision time="11.00" type="collision" lane="-E31_0" pos="70.87" collider="flow_tailgater_E.1" victim="flow_inexperienced_E.1" colliderType="tailgater" victimType="inexperienced" colliderSpeed="11.19" victimSpeed="9.17"/>
+    <collision time="12.00" type="collision" lane="-E30_0" pos="31.06" collider="flow_passive_N.2" victim="flow_inexperienced_N.2" colliderType="passive" victimType="inexperienced" colliderSpeed="10.98" victimSpeed="8.63"/>
+    <collision time="14.00" type="collision" lane="-E30_0" pos="76.71" collider="flow_passive_N.1" victim="flow_aggressive_N.1" colliderType="passive" victimType="aggressive" colliderSpeed="3.57" victimSpeed="1.20"/>
+    <collision time="14.00" type="collision" lane="-E29_1" pos="69.24" collider="flow_speeder_W.2" victim="flow_default_W.2" colliderType="speeder" victimType="default" colliderSpeed="11.19" victimSpeed="7.87"/>
+    <collision time="15.00" type="junction" lane=":J4_0_0" pos="5.69" collider="flow_aggressive_W.2" victim="flow_aggressive_W.1" colliderType="aggressive" victimType="aggressive" colliderSpeed="7.77" victimSpeed="4.71"/>
+    <collision time="16.00" type="collision" lane="-E32_0" pos="81.66" collider="flow_inexperienced_S.2" victim="flow_default_S.2" colliderType="inexperienced" victimType="default" colliderSpeed="3.65" victimSpeed="0.61"/>
+    <collision time="16.00" type="collision" lane="-E31_0" pos="72.68" collider="flow_tailgater_E.2" victim="flow_distracted_E.2" colliderType="tailgater" victimType="distracted" colliderSpeed="8.49" victimSpeed="6.86"/>
+    <collision time="18.00" type="collision" lane="-E30_0" pos="73.68" collider="flow_aggressive_N.3" victim="flow_tailgater_N.2" colliderType="aggressive" victimType="tailgater" colliderSpeed="2.85" victimSpeed="2.40"/>
+    <collision time="18.00" type="collision" lane="-E30_1" pos="65.29" collider="flow_speeder_N.3" victim="flow_default_N.3" colliderType="speeder" victimType="default" colliderSpeed="13.62" victimSpeed="0.00"/>
+    <collision time="20.00" type="collision" lane="E27_0" pos="133.98" collider="flow_aggressive_W.0" victim="flow_default_W.0" colliderType="aggressive" victimType="default" colliderSpeed="8.42" victimSpeed="4.05"/>
+    <collision time="23.00" type="collision" lane="E26_0" pos="11.38" collider="flow_aggressive_E.1" victim="flow_default_E.0" colliderType="aggressive" victimType="default" colliderSpeed="2.50" victimSpeed="1.14"/>
+    <collision time="24.00" type="collision" lane="E26_0" pos="2.17" collider="flow_aggressive_E.3" victim="flow_aggressive_E.2" colliderType="aggressive" victimType="aggressive" colliderSpeed="4.84" victimSpeed="0.00"/>
+    <collision time="29.00" type="collision" lane="-E25_0" pos="120.46" collider="flow_speeder_N.2" victim="flow_inexperienced_N.1" colliderType="speeder" victimType="inexperienced" colliderSpeed="13.79" victimSpeed="9.44"/>
+    <collision time="32.00" type="collision" lane="E27_1" pos="128.93" collider="flow_speeder_W.3" victim="flow_default_W.3" colliderType="speeder" victimType="default" colliderSpeed="11.14" victimSpeed="3.75"/>
+    <collision time="34.00" type="collision" lane="-E30_0" pos="80.07" collider="flow_speeder_N.4" victim="flow_aggressive_N.4" colliderType="speeder" victimType="aggressive" colliderSpeed="8.28" victimSpeed="0.73"/>
+    <collision time="35.00" type="collision" lane="E28_0" pos="123.84" collider="flow_speeder_S.3" victim="flow_distracted_S.2" colliderType="speeder" victimType="distracted" colliderSpeed="7.55" victimSpeed="0.86"/>
+    <collision time="37.00" type="collision" lane="E28_0" pos="26.33" collider="flow_speeder_W.0" victim="flow_distracted_S.3" colliderType="speeder" victimType="distracted" colliderSpeed="4.83" victimSpeed="0.86"/>
+    <collision time="39.00" type="collision" lane="E26_0" pos="113.04" collider="flow_tailgater_E.3" victim="flow_inexperienced_E.3" colliderType="tailgater" victimType="inexperienced" colliderSpeed="12.57" victimSpeed="8.87"/>
+    <collision time="43.00" type="collision" lane="-E30_0" pos="80.11" collider="flow_tailgater_N.4" victim="flow_inexperienced_N.4" colliderType="tailgater" victimType="inexperienced" colliderSpeed="7.64" victimSpeed="5.73"/>
+    <collision time="50.00" type="collision" lane="-E25_0" pos="122.59" collider="flow_tailgater_N.3" victim="flow_aggressive_N.2" colliderType="tailgater" victimType="aggressive" colliderSpeed="3.96" victimSpeed="0.00"/>
+    <collision time="54.00" type="collision" lane="E28_1" pos="120.39" collider="flow_speeder_S.4" victim="flow_default_S.4" colliderType="speeder" victimType="default" colliderSpeed="3.88" victimSpeed="0.19"/>
+    <collision time="55.00" type="junction" lane=":J2_4_1" pos="0.70" collider="flow_speeder_S.2" victim="flow_default_S.1" colliderType="speeder" victimType="default" colliderSpeed="4.35" victimSpeed="0.71"/>
+    <collision time="57.00" type="collision" lane="E28_0" pos="121.24" collider="flow_distracted_S.4" victim="flow_inexperienced_S.3" colliderType="distracted" victimType="inexperienced" colliderSpeed="4.15" victimSpeed="0.00"/>
+    <collision time="61.00" type="collision" lane="E27_0" pos="132.73" collider="flow_aggressive_W.4" victim="flow_passive_W.2" colliderType="aggressive" victimType="passive" colliderSpeed="5.38" victimSpeed="1.36"/>
+    <collision time="61.00" type="collision" lane="E28_0" pos="105.10" collider="flow_distracted_W.2" victim="flow_distracted_W.1" colliderType="distracted" victimType="distracted" colliderSpeed="12.00" victimSpeed="0.00"/>
+    <collision time="65.00" type="collision" lane="E28_0" pos="111.05" collider="flow_aggressive_W.3" victim="flow_default_W.4" colliderType="aggressive" victimType="default" colliderSpeed="8.91" victimSpeed="1.49"/>
+    <collision time="65.00" type="collision" lane="E28_0" pos="110.79" collider="flow_speeder_W.4" victim="flow_aggressive_W.3" colliderType="speeder" victimType="aggressive" colliderSpeed="16.89" victimSpeed="8.91"/>
+    <collision time="73.00" type="collision" lane="-E30_0" pos="85.23" collider="flow_tailgater_N.5" victim="flow_inexperienced_N.5" colliderType="tailgater" victimType="inexperienced" colliderSpeed="3.69" victimSpeed="1.67"/>
+    <collision time="80.00" type="collision" lane="E28_0" pos="113.09" collider="flow_speeder_S.5" victim="flow_default_N.1" colliderType="speeder" victimType="default" colliderSpeed="10.20" victimSpeed="0.79"/>
+    <collision time="83.00" type="collision" lane="E27_0" pos="125.59" collider="flow_aggressive_W.5" victim="flow_inexperienced_N.0" colliderType="aggressive" victimType="inexperienced" colliderSpeed="3.51" victimSpeed="0.96"/>
+    <collision time="83.00" type="collision" lane="E26_0" pos="68.54" collider="flow_tailgater_E.5" victim="flow_inexperienced_E.5" colliderType="tailgater" victimType="inexperienced" colliderSpeed="10.70" victimSpeed="7.92"/>
+    <collision time="88.00" type="collision" lane="-E25_1" pos="0.03" collider="flow_speeder_N.5" victim="flow_default_E.3" colliderType="speeder" victimType="default" colliderSpeed="3.78" victimSpeed="0.50"/>
+    <collision time="90.00" type="collision" lane="E27_0" pos="133.02" collider="flow_inexperienced_N.3" victim="flow_distracted_W.5" colliderType="inexperienced" victimType="distracted" colliderSpeed="4.95" victimSpeed="2.44"/>
+    <collision time="98.00" type="collision" lane="E26_0" pos="93.91" collider="flow_aggressive_E.6" victim="flow_distracted_E.5" colliderType="aggressive" victimType="distracted" colliderSpeed="5.96" victimSpeed="0.49"/>
+    <collision time="98.00" type="collision" lane="-E25_1" pos="16.47" collider="flow_speeder_N.6" victim="flow_default_N.5" colliderType="speeder" victimType="default" colliderSpeed="3.92" victimSpeed="0.21"/>
+    <collision time="102.00" type="collision" lane="E27_0" pos="137.50" collider="flow_aggressive_W.6" victim="flow_speeder_W.6" colliderType="aggressive" victimType="speeder" colliderSpeed="4.84" victimSpeed="2.29"/>
+    <collision time="103.00" type="collision" lane="-E30_0" pos="64.55" collider="flow_tailgater_N.6" victim="flow_passive_N.6" colliderType="tailgater" victimType="passive" colliderSpeed="11.91" victimSpeed="9.52"/>
+    <collision time="104.00" type="collision" lane="E26_0" pos="134.69" collider="flow_tailgater_E.4" victim="flow_distracted_E.4" colliderType="tailgater" victimType="distracted" colliderSpeed="1.34" victimSpeed="0.00"/>
+    <collision time="107.00" type="collision" lane="E28_0" pos="109.85" collider="flow_speeder_W.5" victim="flow_default_N.4" colliderType="speeder" victimType="default" colliderSpeed="7.08" victimSpeed="1.99"/>
+    <collision time="115.00" type="collision" lane="-E25_0" pos="137.34" collider="flow_aggressive_N.5" victim="flow_inexperienced_E.2" colliderType="aggressive" victimType="inexperienced" colliderSpeed="9.68" victimSpeed="6.64"/>
+    <collision time="115.00" type="collision" lane="-E25_0" pos="74.46" collider="flow_aggressive_N.6" victim="flow_passive_N.5" colliderType="aggressive" victimType="passive" colliderSpeed="12.80" victimSpeed="10.77"/>
+    <collision time="124.00" type="collision" lane="E28_0" pos="136.85" collider="flow_speeder_S.6" victim="flow_default_W.5" colliderType="speeder" victimType="default" colliderSpeed="6.32" victimSpeed="3.58"/>
+    <collision time="125.00" type="collision" lane="-E25_0" pos="123.88" collider="flow_aggressive_N.7" victim="flow_inexperienced_N.6" colliderType="aggressive" victimType="inexperienced" colliderSpeed="12.44" victimSpeed="10.02"/>
+    <collision time="127.00" type="collision" lane="E28_1" pos="116.64" collider="flow_speeder_S.7" victim="flow_default_S.7" colliderType="speeder" victimType="default" colliderSpeed="8.06" victimSpeed="3.74"/>
+    <collision time="131.00" type="collision" lane="E26_0" pos="118.09" collider="flow_aggressive_E.7" victim="flow_inexperienced_S.0" colliderType="aggressive" victimType="inexperienced" colliderSpeed="7.55" victimSpeed="0.91"/>
+    <collision time="132.00" type="collision" lane="-E25_1" pos="142.06" collider="flow_speeder_N.7" victim="flow_default_N.7" colliderType="speeder" victimType="default" colliderSpeed="7.86" victimSpeed="4.50"/>
+    <collision time="137.00" type="collision" lane="E28_0" pos="80.15" collider="flow_distracted_S.7" victim="flow_default_W.6" colliderType="distracted" victimType="default" colliderSpeed="6.98" victimSpeed="1.72"/>
+    <collision time="147.00" type="collision" lane="-E25_0" pos="30.01" collider="flow_aggressive_N.8" victim="flow_passive_N.7" colliderType="aggressive" victimType="passive" colliderSpeed="8.01" victimSpeed="3.19"/>
+    <collision time="152.00" type="collision" lane="E27_0" pos="132.05" collider="flow_passive_W.6" victim="flow_distracted_W.7" colliderType="passive" victimType="distracted" colliderSpeed="3.58" victimSpeed="0.68"/>
+    <collision time="152.00" type="collision" lane="E28_0" pos="89.20" collider="flow_speeder_W.7" victim="flow_default_N.6" colliderType="speeder" victimType="default" colliderSpeed="13.36" victimSpeed="1.32"/>
+    <collision time="156.00" type="collision" lane="E28_0" pos="63.73" collider="flow_aggressive_W.7" victim="flow_distracted_S.8" colliderType="aggressive" victimType="distracted" colliderSpeed="6.31" victimSpeed="5.10"/>
+    <collision time="160.00" type="collision" lane="E26_0" pos="125.13" collider="flow_tailgater_E.7" victim="flow_inexperienced_E.7" colliderType="tailgater" victimType="inexperienced" colliderSpeed="4.44" victimSpeed="2.19"/>
+    <collision time="161.00" type="collision" lane="E28_0" pos="139.91" collider="flow_inexperienced_S.7" victim="flow_inexperienced_S.6" colliderType="inexperienced" victimType="inexperienced" colliderSpeed="2.88" victimSpeed="0.73"/>
+    <collision time="164.00" type="collision" lane="E28_0" pos="36.45" collider="flow_aggressive_W.8" victim="flow_default_W.8" colliderType="aggressive" victimType="default" colliderSpeed="11.61" victimSpeed="9.20"/>
+    <collision time="164.00" type="collision" lane="E28_0" pos="129.21" collider="flow_speeder_S.8" victim="flow_default_W.7" colliderType="speeder" victimType="default" colliderSpeed="6.94" victimSpeed="1.72"/>
+    <collision time="170.00" type="collision" lane="E26_0" pos="88.32" collider="flow_tailgater_E.8" victim="flow_default_S.6" colliderType="tailgater" victimType="default" colliderSpeed="6.43" victimSpeed="3.41"/>
+    <collision time="173.00" type="collision" lane="-E25_0" pos="116.16" collider="flow_tailgater_N.8" victim="flow_inexperienced_E.6" colliderType="tailgater" victimType="inexperienced" colliderSpeed="9.56" victimSpeed="4.53"/>
+    <collision time="179.00" type="collision" lane="-E30_0" pos="64.49" collider="flow_passive_N.9" victim="flow_tailgater_N.9" colliderType="passive" victimType="tailgater" colliderSpeed="10.69" victimSpeed="6.80"/>
+    <collision time="185.00" type="collision" lane="E27_0" pos="137.11" collider="flow_speeder_W.9" victim="flow_aggressive_W.9" colliderType="speeder" victimType="aggressive" colliderSpeed="9.87" victimSpeed="4.87"/>
+    <collision time="186.00" type="collision" lane="E26_0" pos="115.48" collider="flow_aggressive_E.9" victim="flow_inexperienced_S.4" colliderType="aggressive" victimType="inexperienced" colliderSpeed="2.66" victimSpeed="0.48"/>
+    <collision time="192.00" type="collision" lane="E26_0" pos="109.67" collider="flow_distracted_S.6" victim="flow_inexperienced_E.9" colliderType="distracted" victimType="inexperienced" colliderSpeed="4.69" victimSpeed="2.16"/>
+    <collision time="192.00" type="collision" lane="E28_1" pos="83.50" collider="flow_speeder_S.9" victim="flow_default_S.9" colliderType="speeder" victimType="default" colliderSpeed="2.57" victimSpeed="0.00"/>
+    <collision time="208.00" type="collision" lane="E26_0" pos="101.05" collider="flow_aggressive_E.10" victim="flow_default_S.8" colliderType="aggressive" victimType="default" colliderSpeed="4.35" victimSpeed="0.08"/>
+    <collision time="219.00" type="junction" lane=":J4_0_0" pos="0.93" collider="flow_aggressive_W.10" victim="flow_passive_W.8" colliderType="aggressive" victimType="passive" colliderSpeed="2.56" victimSpeed="0.00"/>
+    <collision time="240.00" type="collision" lane="E26_0" pos="85.66" collider="flow_tailgater_E.10" victim="flow_distracted_S.9" colliderType="tailgater" victimType="distracted" colliderSpeed="4.78" victimSpeed="0.68"/>
+    <collision time="249.00" type="collision" lane="E26_0" pos="136.05" collider="flow_tailgater_E.9" victim="flow_distracted_E.9" colliderType="tailgater" victimType="distracted" colliderSpeed="3.18" victimSpeed="0.37"/>
+    <collision time="253.00" type="collision" lane="E28_0" pos="5.45" collider="flow_default_S.11" victim="flow_speeder_W.10" colliderType="default" victimType="speeder" colliderSpeed="7.42" victimSpeed="0.00"/>
+    <collision time="257.00" type="collision" lane="E26_0" pos="126.76" collider="flow_distracted_S.5" victim="flow_inexperienced_S.8" colliderType="distracted" victimType="inexperienced" colliderSpeed="3.84" victimSpeed="0.00"/>
+    <collision time="266.00" type="collision" lane="E28_0" pos="2.85" collider="flow_speeder_S.11" victim="flow_tailgater_N.7" colliderType="speeder" victimType="tailgater" colliderSpeed="4.30" victimSpeed="0.79"/>
+    <collision time="268.00" type="collision" lane="-E30_1" pos="56.83" collider="flow_speeder_N.11" victim="flow_default_N.11" colliderType="speeder" victimType="default" colliderSpeed="3.87" victimSpeed="0.02"/>
+    <collision time="290.00" type="junction" lane=":J3_0_0" pos="0.52" collider="flow_aggressive_N.9" victim="flow_passive_N.8" colliderType="aggressive" victimType="passive" colliderSpeed="1.63" victimSpeed="0.00"/>
+    <collision time="295.00" type="collision" lane="-E30_0" pos="83.38" collider="flow_aggressive_N.11" victim="flow_inexperienced_N.10" colliderType="aggressive" victimType="inexperienced" colliderSpeed="5.55" victimSpeed="2.56"/>
+    <collision time="300.00" type="collision" lane="-E30_0" pos="72.47" collider="flow_tailgater_N.11" victim="flow_tailgater_N.10" colliderType="tailgater" victimType="tailgater" colliderSpeed="6.57" victimSpeed="0.04"/>
+    <collision time="323.00" type="collision" lane="E27_1" pos="6.07" collider="flow_speeder_N.9" victim="flow_default_N.0" colliderType="speeder" victimType="default" colliderSpeed="3.97" victimSpeed="0.35"/>
+    <collision time="324.00" type="collision" lane="E27_1" pos="15.61" collider="flow_speeder_W.11" victim="flow_default_N.9" colliderType="speeder" victimType="default" colliderSpeed="5.05" victimSpeed="0.05"/>
+    <collision time="330.00" type="collision" lane="E27_0" pos="14.59" collider="flow_passive_W.10" victim="flow_tailgater_E.6" colliderType="passive" victimType="tailgater" colliderSpeed="2.26" victimSpeed="0.54"/>
+    <collision time="359.00" type="collision" lane="E26_1" pos="20.03" collider="flow_speeder_S.12" victim="flow_default_S.10" colliderType="speeder" victimType="default" colliderSpeed="4.29" victimSpeed="0.85"/>
+    <collision time="364.00" type="collision" lane="E27_0" pos="30.60" collider="flow_speeder_W.12" victim="flow_aggressive_W.12" colliderType="speeder" victimType="aggressive" colliderSpeed="5.07" victimSpeed="0.00"/>
+    <collision time="366.00" type="collision" lane="E26_0" pos="4.93" collider="flow_aggressive_E.12" victim="flow_default_S.12" colliderType="aggressive" victimType="default" colliderSpeed="2.23" victimSpeed="0.62"/>
+    <collision time="369.00" type="collision" lane="-E30_0" pos="55.54" collider="flow_passive_N.12" victim="flow_tailgater_N.12" colliderType="passive" victimType="tailgater" colliderSpeed="2.47" victimSpeed="0.00"/>
+    <collision time="382.00" type="collision" lane="-E25_0" pos="18.48" collider="flow_aggressive_N.10" victim="flow_aggressive_E.8" colliderType="aggressive" victimType="aggressive" colliderSpeed="6.98" victimSpeed="0.00"/>
+    <collision time="384.00" type="junction" lane=":J3_0_1" pos="7.62" collider="flow_speeder_N.12" victim="flow_inexperienced_N.11" colliderType="speeder" victimType="inexperienced" colliderSpeed="7.18" victimSpeed="1.25"/>
+    <collision time="390.00" type="collision" lane="-E25_0" pos="13.28" collider="flow_aggressive_E.11" victim="flow_passive_N.10" colliderType="aggressive" victimType="passive" colliderSpeed="5.84" victimSpeed="2.72"/>
+    <collision time="392.00" type="collision" lane="-E30_0" pos="77.86" collider="flow_aggressive_N.13" victim="flow_inexperienced_N.12" colliderType="aggressive" victimType="inexperienced" colliderSpeed="3.08" victimSpeed="1.39"/>
+    <collision time="404.00" type="collision" lane="E27_1" pos="26.64" collider="flow_speeder_N.10" victim="flow_speeder_W.13" colliderType="speeder" victimType="speeder" colliderSpeed="14.14" victimSpeed="0.00"/>
+    <collision time="407.00" type="collision" lane="E27_0" pos="38.74" collider="flow_aggressive_W.13" victim="flow_passive_W.11" colliderType="aggressive" victimType="passive" colliderSpeed="5.05" victimSpeed="0.24"/>
+    <collision time="412.00" type="collision" lane="E26_0" pos="27.86" collider="flow_aggressive_E.13" victim="flow_tailgater_E.12" colliderType="aggressive" victimType="tailgater" colliderSpeed="4.86" victimSpeed="0.00"/>
+    <collision time="416.00" type="collision" lane="E27_1" pos="22.76" collider="flow_speeder_N.13" victim="flow_default_N.12" colliderType="speeder" victimType="default" colliderSpeed="9.81" victimSpeed="5.34"/>
+    <collision time="417.00" type="collision" lane="-E25_0" pos="14.16" collider="flow_passive_N.13" victim="flow_tailgater_N.13" colliderType="passive" victimType="tailgater" colliderSpeed="7.34" victimSpeed="3.60"/>
+    <collision time="420.00" type="collision" lane="E26_0" pos="14.86" collider="flow_tailgater_E.13" victim="flow_distracted_S.12" colliderType="tailgater" victimType="distracted" colliderSpeed="4.78" victimSpeed="0.00"/>
+    <collision time="435.00" type="collision" lane="E26_1" pos="62.15" collider="flow_tailgater_E.11" victim="flow_default_E.12" colliderType="tailgater" victimType="default" colliderSpeed="1.73" victimSpeed="0.13"/>
+    <collision time="440.00" type="collision" lane="E27_1" pos="26.25" collider="flow_speeder_W.14" victim="flow_default_W.14" colliderType="speeder" victimType="default" colliderSpeed="5.68" victimSpeed="0.60"/>
+    <collision time="442.00" type="collision" lane="E27_0" pos="38.11" collider="flow_aggressive_W.14" victim="flow_passive_W.12" colliderType="aggressive" victimType="passive" colliderSpeed="6.24" victimSpeed="1.48"/>
+    <collision time="449.00" type="collision" lane="E27_0" pos="83.77" collider="flow_aggressive_W.11" victim="flow_passive_W.9" colliderType="aggressive" victimType="passive" colliderSpeed="4.08" victimSpeed="0.66"/>
+    <collision time="452.00" type="collision" lane="E26_1" pos="42.15" collider="flow_speeder_S.13" victim="flow_distracted_E.13" colliderType="speeder" victimType="distracted" colliderSpeed="3.45" victimSpeed="1.35"/>
+    <collision time="453.00" type="collision" lane="E26_0" pos="11.63" collider="flow_speeder_S.14" victim="flow_distracted_S.13" colliderType="speeder" victimType="distracted" colliderSpeed="5.59" victimSpeed="1.29"/>
+    <collision time="458.00" type="collision" lane="-E25_0" pos="43.30" collider="flow_tailgater_N.14" victim="flow_inexperienced_N.14" colliderType="tailgater" victimType="inexperienced" colliderSpeed="6.06" victimSpeed="0.00"/>
+    <collision time="466.00" type="collision" lane="E27_1" pos="44.99" collider="flow_speeder_N.14" victim="flow_default_N.14" colliderType="speeder" victimType="default" colliderSpeed="6.09" victimSpeed="0.71"/>
+    <collision time="467.00" type="collision" lane="E27_0" pos="69.00" collider="flow_aggressive_N.12" victim="flow_distracted_W.14" colliderType="aggressive" victimType="distracted" colliderSpeed="9.39" victimSpeed="0.00"/>
+    <collision time="475.00" type="collision" lane="-E25_0" pos="51.29" collider="flow_aggressive_N.15" victim="flow_passive_N.14" colliderType="aggressive" victimType="passive" colliderSpeed="2.15" victimSpeed="0.00"/>
+    <collision time="477.00" type="collision" lane="E26_0" pos="42.88" collider="flow_aggressive_E.14" victim="flow_default_S.13" colliderType="aggressive" victimType="default" colliderSpeed="3.47" victimSpeed="0.43"/>
+    <collision time="485.00" type="collision" lane="E26_0" pos="52.77" collider="flow_tailgater_E.14" victim="flow_inexperienced_S.13" colliderType="tailgater" victimType="inexperienced" colliderSpeed="5.18" victimSpeed="0.00"/>
+    <collision time="493.00" type="collision" lane="E26_0" pos="62.83" collider="flow_aggressive_E.15" victim="flow_inexperienced_S.14" colliderType="aggressive" victimType="inexperienced" colliderSpeed="6.09" victimSpeed="3.12"/>
+    <collision time="496.00" type="collision" lane="E27_1" pos="73.83" collider="flow_speeder_W.15" victim="flow_default_N.15" colliderType="speeder" victimType="default" colliderSpeed="5.05" victimSpeed="0.85"/>
+    <collision time="508.00" type="collision" lane="E28_1" pos="78.55" collider="flow_speeder_S.15" victim="flow_default_W.13" colliderType="speeder" victimType="default" colliderSpeed="5.16" victimSpeed="0.95"/>
+    <collision time="514.00" type="collision" lane="E27_0" pos="87.79" collider="flow_aggressive_W.15" victim="flow_passive_W.13" colliderType="aggressive" victimType="passive" colliderSpeed="2.78" victimSpeed="0.00"/>
+    <collision time="515.00" type="collision" lane="-E25_0" pos="41.09" collider="flow_inexperienced_E.13" victim="flow_default_E.13" colliderType="inexperienced" victimType="default" colliderSpeed="8.31" victimSpeed="1.56"/>
+    <collision time="519.00" type="collision" lane="E27_0" pos="95.95" collider="flow_speeder_N.15" victim="flow_inexperienced_N.13" colliderType="speeder" victimType="inexperienced" colliderSpeed="5.63" victimSpeed="1.28"/>
+    <collision time="523.00" type="collision" lane="-E25_0" pos="76.31" collider="flow_tailgater_N.15" victim="flow_inexperienced_E.12" colliderType="tailgater" victimType="inexperienced" colliderSpeed="2.39" victimSpeed="0.56"/>
+    <collision time="526.00" type="collision" lane="-E29_0" pos="85.06" collider="flow_aggressive_W.16" victim="flow_default_W.16" colliderType="aggressive" victimType="default" colliderSpeed="3.74" victimSpeed="1.45"/>
+    <collision time="529.00" type="collision" lane="-E25_0" pos="88.12" collider="flow_passive_N.15" victim="flow_aggressive_N.14" colliderType="passive" victimType="aggressive" colliderSpeed="3.42" victimSpeed="0.00"/>
+    <collision time="548.00" type="collision" lane="E28_1" pos="123.31" collider="flow_speeder_S.16" victim="flow_default_S.14" colliderType="speeder" victimType="default" colliderSpeed="4.38" victimSpeed="0.97"/>
+    <collision time="551.00" type="collision" lane="-E25_0" pos="101.98" collider="flow_aggressive_N.16" victim="flow_inexperienced_E.14" colliderType="aggressive" victimType="inexperienced" colliderSpeed="6.03" victimSpeed="1.93"/>
+    <collision time="600.00" type="collision" lane="E26_1" pos="141.35" collider="flow_tailgater_E.15" victim="flow_default_E.15" colliderType="tailgater" victimType="default" colliderSpeed="1.74" victimSpeed="0.46"/>
+    <collision time="628.00" type="collision" lane="E26_0" pos="33.39" collider="flow_tailgater_E.16" victim="flow_distracted_S.16" colliderType="tailgater" victimType="distracted" colliderSpeed="3.08" victimSpeed="0.25"/>
+    <collision time="656.00" type="collision" lane="E27_0" pos="129.99" collider="flow_inexperienced_N.15" victim="flow_passive_W.14" colliderType="inexperienced" victimType="passive" colliderSpeed="6.22" victimSpeed="1.33"/>
+    <collision time="668.00" type="collision" lane="E26_0" pos="50.14" collider="flow_aggressive_E.17" victim="flow_inexperienced_S.15" colliderType="aggressive" victimType="inexperienced" colliderSpeed="4.60" victimSpeed="0.35"/>
+    <collision time="703.00" type="junction" lane=":J2_2_0" pos="3.33" collider="flow_speeder_W.16" victim="flow_distracted_W.12" colliderType="speeder" victimType="distracted" colliderSpeed="5.91" victimSpeed="3.38"/>
+    <collision time="716.00" type="collision" lane="E28_0" pos="93.81" collider="flow_aggressive_W.17" victim="flow_speeder_W.17" colliderType="aggressive" victimType="speeder" colliderSpeed="4.71" victimSpeed="1.42"/>
+    <collision time="746.00" type="collision" lane="-E25_0" pos="56.59" collider="flow_aggressive_N.18" victim="flow_passive_N.17" colliderType="aggressive" victimType="passive" colliderSpeed="2.65" victimSpeed="0.26"/>
+    <collision time="757.00" type="junction" lane=":J4_0_0" pos="6.35" collider="flow_speeder_W.18" victim="flow_aggressive_W.18" colliderType="speeder" victimType="aggressive" colliderSpeed="4.89" victimSpeed="0.61"/>
+    <collision time="765.00" type="collision" lane="E26_0" pos="140.62" collider="flow_tailgater_E.17" victim="flow_inexperienced_E.17" colliderType="tailgater" victimType="inexperienced" colliderSpeed="6.53" victimSpeed="4.79"/>
+    <collision time="790.00" type="collision" lane="E26_0" pos="99.66" collider="flow_aggressive_E.18" victim="flow_distracted_S.15" colliderType="aggressive" victimType="distracted" colliderSpeed="4.21" victimSpeed="0.86"/>
+    <collision time="840.00" type="collision" lane="E27_0" pos="48.40" collider="flow_speeder_N.16" victim="flow_default_N.16" colliderType="speeder" victimType="default" colliderSpeed="14.17" victimSpeed="7.28"/>
+    <collision time="852.00" type="collision" lane="E27_0" pos="60.68" collider="flow_tailgater_N.16" victim="flow_inexperienced_N.16" colliderType="tailgater" victimType="inexperienced" colliderSpeed="4.91" victimSpeed="2.78"/>
+    <collision time="956.00" type="collision" lane="-E25_1" pos="134.81" collider="flow_tailgater_N.17" victim="flow_default_N.18" colliderType="tailgater" victimType="default" colliderSpeed="9.70" victimSpeed="3.07"/>
+    <collision time="960.00" type="collision" lane="-E25_1" pos="129.57" collider="flow_tailgater_N.18" victim="flow_inexperienced_N.18" colliderType="tailgater" victimType="inexperienced" colliderSpeed="9.03" victimSpeed="6.47"/>
+    <collision time="963.00" type="collision" lane="-E25_1" pos="133.00" collider="flow_speeder_N.18" victim="flow_default_N.19" colliderType="speeder" victimType="default" colliderSpeed="10.58" victimSpeed="1.73"/>
+    <collision time="978.00" type="collision" lane="E27_0" pos="79.21" collider="flow_aggressive_W.19" victim="flow_aggressive_N.17" colliderType="aggressive" victimType="aggressive" colliderSpeed="6.27" victimSpeed="0.80"/>
+    <collision time="996.00" type="junction" lane=":J5_4_1" pos="7.37" collider="flow_speeder_W.19" victim="flow_default_N.17" colliderType="speeder" victimType="default" colliderSpeed="3.85" victimSpeed="0.70"/>
+    <collision time="999.00" type="collision" lane="-E32_1" pos="86.68" collider="flow_speeder_S.18" victim="flow_inexperienced_S.17" colliderType="speeder" victimType="inexperienced" colliderSpeed="6.00" victimSpeed="0.37"/>
+</collisions>

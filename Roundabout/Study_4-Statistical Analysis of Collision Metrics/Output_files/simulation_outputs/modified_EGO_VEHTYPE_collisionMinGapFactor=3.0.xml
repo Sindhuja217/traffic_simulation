@@ -1,0 +1,10 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <vType id="DEFAULT_VEHTYPE" decel="4.50" accel="2.60" maxSpeed="55.56" length="5" color="yellow" speedFactor="1.9" speedDev="0.5" jmIgnoreFoeProb="0.0" tau="1.00" sigma="0.50" />
+    <vType id="EGO_VEHTYPE" color="red" impatience="0.0" maxSpeed="55.56" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcPushy="0.00" lcImpatience="0.00" jmIgnoreFoeProb="0.0" carFollowModel="EIDM" accel="2.60" decel="4.50" collisionMinGapFactor="3.0" tau="1.00" sigmagap="0.10" sigmaerror="0.04" eidmaccfactor="0.01" eidmdelta="5" eidmmingap="2.5" eidmtau="1.0" />
+    
+    <flow id="f_0_default" type="DEFAULT_VEHTYPE" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="600" />
+    <flow id="f_1_default" type="DEFAULT_VEHTYPE" begin="0.00" from="-E32" to="E30" end="200.00" vehsPerHour="600" />
+    <flow id="f_0_ego" type="EGO_VEHTYPE" begin="0.00" from="-E29" to="E31" end="200.00" vehsPerHour="600" />
+    <flow id="f_1_ego" type="EGO_VEHTYPE" begin="5.00" from="-E32" to="E30" end="200.00" vehsPerHour="600" />
+</routes>

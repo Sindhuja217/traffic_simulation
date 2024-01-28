@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-16 17:56:22 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE 699/(No subject)/new.net.xml"/>
+        <route-files value="simulation_outputs/modified_EGO_VEHTYPE_tau=0.4.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="simulation_outputs/output_tau=0.4_run_1.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="52887"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="160.00" type="collision" lane="-E29_0" pos="64.48" collider="f_0_ego.21" victim="f_0_ego.20" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="7.05" victimSpeed="0.00"/>
+    <collision time="282.00" type="collision" lane="E28_0" pos="96.59" collider="f_0_ego.10" victim="f_0_ego.9" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="1.37" victimSpeed="0.00"/>
+    <collision time="285.00" type="collision" lane="E28_0" pos="82.93" collider="f_0_ego.13" victim="f_0_ego.17" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="9.56" victimSpeed="0.96"/>
+    <collision time="323.00" type="collision" lane="E28_0" pos="102.78" collider="f_0_ego.11" victim="f_0_ego.27" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="7.23" victimSpeed="0.00"/>
+    <collision time="363.00" type="collision" lane="E28_0" pos="114.38" collider="f_0_ego.16" victim="f_0_ego.26" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="6.26" victimSpeed="0.00"/>
+</collisions>

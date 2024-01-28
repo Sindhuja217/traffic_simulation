@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-08 19:29:30 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Highway_route.net.xml"/>
+        <route-files value="simulation_outputs\modified_DEFAULT_VEHTYPE_decel=1.5.xml"/>
+    </input>
+
+    <output>
+        <full-output value="Output23.xml"/>
+        <collision-output value="simulation_outputs\output_decel=1.5.xml"/>
+    </output>
+
+    <processing>
+        <lateral-resolution value="0.8"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="60947"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="175.00" type="collision" lane="E1_2" pos="62.74" collider="f_0.45" victim="f_0.42" colliderType="DEFAULT_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.74" victimSpeed="0.63"/>
+    <collision time="506.00" type="collision" lane="E4_0" pos="0.02" collider="f_0.141" victim="f_1.117" colliderType="DEFAULT_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="3.46" victimSpeed="0.00"/>
+</collisions>

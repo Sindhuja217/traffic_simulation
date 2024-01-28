@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vTypeDistribution id="vd1">
+        <vType id="normal" guiShape="passenger" carFollowModel="EIDM" color="blue" probability="0.2" tau="1.5" minGap="2.5" accel="2.6" decel="4.5" sigmaerror="0.1" maxSpeed="33.33" emergencyDecel="4.5" />
+        <vType id="speeder" guiShape="passenger" carFollowModel="EIDM" color="yellow" probability="0.2" tau="1.5" minGap="2.5" accel="5" decel="6" sigmaerror="0.1" maxSpeed="41.67" emergencyDecel="6" />
+        <vType id="tailgater" guiShape="passenger" carFollowModel="EIDM" color="orange" probability="0.2" tau="0.1" minGap="1" accel="3" decel="5" sigmaerror="0.5" maxSpeed="33.33" emergencyDecel="7" />
+        <vType id="aggressive" guiShape="passenger" carFollowModel="EIDM" color="red" probability="0.2" tau="0.1" minGap="1" accel="5" decel="5" sigmaerror="0.5" maxSpeed="41.67" emergencyDecel="7" jmDriveRedSpeed="10" jmDriveAfterRedTime="4" jmDriveAfterYellowTime="4" lcCooperative="-1" lcSpeedGain="10" />        
+        <vType id="violator" guiShape="passenger" carFollowModel="EIDM" color="black" probability="0.2" tau="0.1" minGap="1" accel="3" decel="5" sigmaerror="0.5" maxSpeed="33.33" emergencyDecel="7" jmDriveAfterYellowTime="4" />
+    </vTypeDistribution>
+    
+    <!-- Routes -->
+    <routeDistribution id="rd1">
+        <route id="r_0" edges="-E6 -E5 -E1 E3 E7" probability="0.2"/>
+        <route id="r_1" edges="E0 E1 E5 E6" probability="0.2"/>
+        <route id="r_2" edges="E2 E3 E7" probability="0.2"/>
+        <route id="r_3" edges="-E7 -E3 -E0" probability="0.2"/>
+        <route id="r_4" edges="-E6 -E5 -E1 -E0" probability="0.2"/>
+    </routeDistribution>
+
+    <flow id="myflow" type='vd1' route='rd1' begin="0" end="10000" number="1000">
+    </flow>
+</routes>

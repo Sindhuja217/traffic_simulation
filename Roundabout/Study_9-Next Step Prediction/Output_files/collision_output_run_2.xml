@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-08 23:55:07 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-7-12-23/new.net.xml"/>
+        <route-files value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-7-12-23/new.rou1.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd_output_run_2.xml"/>
+        <collision-output value="collision_output_run_2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="60"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="82.70" type="collision" lane="E28_0" pos="84.90" collider="ego_car" victim="flow_default_S.3" colliderType="ego_vehicle" victimType="default" colliderSpeed="19.14" victimSpeed="12.35"/>
+    <collision time="193.50" type="collision" lane="E28_0" pos="0.08" collider="flow_default_S.9" victim="flow_default_W.7" colliderType="default" victimType="default" colliderSpeed="1.50" victimSpeed="1.53"/>
+</collisions>

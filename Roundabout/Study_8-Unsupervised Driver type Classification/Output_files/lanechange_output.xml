@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-30 18:27:16 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/new.net.xml"/>
+        <route-files value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/new.rou1.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/fcd_output.xml"/>
+        <full-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/FinalOutput.xml"/>
+        <summary-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/summary_output.xml"/>
+        <lanechange-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/lanechange_output.xml"/>
+        <collision-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/collisionOutput.xml"/>
+        <statistic-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/weeklytask-16-11-23/statistics_output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1500"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="60"/>
+    </processing>
+
+</configuration>
+-->
+
+<lanechanges>
+</lanechanges>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-17 13:16:19 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" impatience="0.50" laneChangeModel="LC2013" lcAccelLat="20" lcAssertive="1" lcPushy="1" lcImpatience="1" lcSigma = "0.7" lcSpeedGain = "5" lcStrategic="0" lcCooperative = "0.2" lcOvertakeRight="1" jmSigmaMinor="1" jmIgnoreFoeSpeed="20" jmTimegapMinor="0.3" jmIgnoreJunctionFoeProb = "1" jmIgnoreKeepClearTime = "1" carFollowModel="EIDM" sigma="0.5" tau="0.01" collisionMinGapFactor="0.5" sigmagap="0.5" sigmaerror="0.3" decel="26" emergencyDecel="20"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- <vType id="AggressiveDriver" carFollowModel="EIDM" sigma="0.5" tau="0.05" accel="5.0" decel="5.0" emergencyDecel="4" maxSpeed="45.0" collisionMinGapFactor="0.5" laneChangeModel="LC2013" /> -->
+
+    <vType id="CautiousDriver" carFollowModel="EIDM" sigma="0.5" tau="0.05" accel="1.0" decel="2.0" emergencyDecel="4" maxSpeed="30.0"  collisionMinGapFactor="0.5" laneChangeModel="LC2013" />
+
+    <vType id="AggressiveLanechangingdriver" color = 'red' carFollowModel="EIDM" sigma="0.5" tau="0.01" accel="5.0" decel="5.0" emergencyDecel="4" maxSpeed="45.0"   collisionMinGapFactor="0.5" laneChangeModel="LC2013"  lcAccelLat="6" lcAssertive="1" lcPushy="1" lcImpatience="0.5" lcSigma = "0.7" lcSpeedGain = "5" lcStrategic="0"/>
+
+    <vType id="InexperiencedDriver" carFollowModel="EIDM" collisionMinGapFactor="0.5" sigma="0.6" tau="0.06" accel="1.0" decel="2.0" maxSpeed="25.0" laneChangeModel="LC2013" lcCooperative="-1" lcStrategic="0"/>
+
+    <vType id="ElderlyDriver" carFollowModel="EIDM" sigma="0.4" tau="0.01" accel="1.2" decel="5" emergencyDecel="4" maxSpeed="20.0" collisionMinGapFactor="0.5" laneChangeModel="LC2013" lcCooperative="-1" lcStrategic="0"/>
+
+    <vType id="SportsCarDriver" carFollowModel="EIDM" sigma="0.4" tau="0.01" accel="6.0" decel="15.5" emergencyDecel="10" maxSpeed="60.0" collisionMinGapFactor="0.5" laneChangeModel="LC2013" lcStrategic="0" jmSigmaMinor="1" jmIgnoreFoeSpeed="25" jmIgnoreFoeProb = "0.5"  jmTimegapMinor="0.3" />
+
+
+
+    
+    <vTypeDistribution id="typedist2" vTypes="CautiousDriver AggressiveLanechangingdriver InexperiencedDriver ElderlyDriver SportsCarDriver" probabilities="0.2 0.1 0.3 0.2 0.2" />
+
+    <flow id="f_0" begin="0.00" from="E0" to="E2" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_1" begin="0.00" from="E5" to="E2" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_2" begin="0.00" personNumber="4" from="E0" to="E6" end="600.00" vehsPerHour="600.00" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_3" begin="0.00" from="-E2" to="-E0" end="600.00" number="500" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_4" begin="0.00" from="E7" to="-E0" end="600.00" number="500" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_5" begin="0.00" from="-E2" to="E8" end="600.00" number="500" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+    
+
+
+</routes>

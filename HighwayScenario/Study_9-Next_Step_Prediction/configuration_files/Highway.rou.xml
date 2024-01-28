@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="EGOVEHICLE" carFollowModel="EIDM" sigma="0.5" tau="0.01" accel="6.0" sigmaerror = "0.5" decel="10" emergencyDecel="5" maxSpeed="45.0" collisionMinGapFactor="1" laneChangeModel="SL2015" lcAccelLat="10" lcPushy="1" lcImpatience="1" lcSigma="1" lcSpeedGain="10" lcTimeToImpatience="0.1" lcCooperative = "-1" jmSigmaMinor="1" jmIgnoreFoeSpeed="25" jmIgnoreFoeProb = "0.5"  jmTimegapMinor="0.3"/>
+    <vType id="DEFAULTVEHCILE" carFollowModel="Krauss" sigma="0.5" tau="0.25" accel="4.0" decel="5.0" emergencyDecel="5" maxSpeed="35.0" collisionMinGapFactor="1" laneChangeModel="LC2013"  />
+    
+    <!-- Route distribution -->
+    <routeDistribution id="routedist">
+        <route id="route1" edges="-E2 -E3 -E1 E8" probability="0.2">
+        </route>
+        <route id="route2" edges="-E2 -E3 -E1 -E4 -E0" probability="0.2"/>
+        <route id="route2" edges="E7 -E1 -E4 -E0" probability="0.1"/>
+        <route id="route2" edges="E0 E4 E1 E3 E2" probability="0.1"/>
+        <route id="route2" edges="E5 E4 E1 E3 E2" probability="0.2"/>
+        <route id="route2" edges="E5 E4 E1 E3 E6" probability="0.2"/>
+    </routeDistribution>
+
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="EGOVEHICLE" type="EGOVEHICLE" route="routedist" depart="0" departLane="free" color="red"/>
+
+    <vTypeDistribution id="typedist2" vTypes="DEFAULTVEHCILE" probabilities="1" />
+
+    <flow id="f_0" begin="0.00" from="E0" to="E2" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_1" begin="0.00" from="E5" to="E2" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_2" begin="0.00" personNumber="4" from="E0" to="E6" end="600.00" vehsPerHour="600.00" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_3" begin="0.00" from="-E2" to="-E0" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_4" begin="0.00" from="E7" to="-E0" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+
+    <flow id="f_5" begin="0.00" from="-E2" to="E8" end="600.00" number="600" departPos="random" departLane="free" departPosLat="random_free" arrivalPos="random" arrivalLane="random" type="typedist2" />
+</routes>

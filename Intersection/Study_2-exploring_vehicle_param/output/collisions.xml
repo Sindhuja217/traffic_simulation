@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-15 22:10:00 by Eclipse SUMO sumo Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersec_1.net.xml"/>
+        <route-files value="intersec_1.rou.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="output/collisions.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <report>
+        <log value="simulation_main.log"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="61996"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="15.80" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.0" victim="f_1.0" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="0.00" victimSpeed="7.11"/>
+    <collision time="43.70" type="junction" lane=":J2_7_0" pos="12.97" collider="f_3.7" victim="f_2.3" colliderType="ego_veh" victimType="ego_veh" colliderSpeed="9.50" victimSpeed="2.85"/>
+    <collision time="47.90" type="junction" lane=":J2_7_0" pos="13.25" collider="f_3.9" victim="f_2.4" colliderType="ego_veh" victimType="ego_veh" colliderSpeed="8.08" victimSpeed="2.78"/>
+    <collision time="70.40" type="junction" lane=":J2_12_0" pos="2.42" collider="f_2.8" victim="f_3.16" colliderType="ego_veh" victimType="ego_veh" colliderSpeed="3.43" victimSpeed="6.16"/>
+    <collision time="237.90" type="junction" lane=":J2_7_0" pos="13.66" collider="f_6.14" victim="f_2.11" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="9.24" victimSpeed="2.91"/>
+    <collision time="254.40" type="junction" lane=":J2_7_0" pos="7.78" collider="f_6.15" victim="f_2.18" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="5.50" victimSpeed="3.76"/>
+    <collision time="320.20" type="junction" lane=":J2_7_0" pos="9.99" collider="f_6.19" victim="f_2.36" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="5.20" victimSpeed="2.95"/>
+    <collision time="329.90" type="junction" lane=":J2_11_0" pos="9.51" collider="f_1.2" victim="f_2.38" colliderType="ego_veh" victimType="ego_veh" colliderSpeed="6.64" victimSpeed="1.30"/>
+    <collision time="339.00" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.4" victim="f_1.3" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="0.00" victimSpeed="5.74"/>
+    <collision time="431.50" type="junction" lane=":J2_7_0" pos="9.22" collider="f_6.26" victim="f_2.56" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="6.80" victimSpeed="2.99"/>
+    <collision time="434.60" type="collision" lane="-E0_0" pos="32.84" collider="f_0.1" victim="f_0.2" colliderType="ego_veh" victimType="ego_veh" colliderSpeed="3.21" victimSpeed="0.00"/>
+    <collision time="682.60" type="junction" lane=":J2_4_0" pos="4.86" collider="f_0.39" victim="f_7.42" colliderType="ego_veh" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="5.00"/>
+    <collision time="949.20" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.59" victim="f_5.1" colliderType="DEFAULT_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="0.00" victimSpeed="0.20"/>
+    <collision time="965.90" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.60" victim="f_1.19" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="0.00" victimSpeed="5.75"/>
+    <collision time="980.10" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.61" victim="f_1.24" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="0.00" victimSpeed="6.92"/>
+    <collision time="996.90" type="junction" lane=":J2_2_0" pos="3.97" collider="f_7.62" victim="f_1.27" colliderType="DEFAULT_VEHTYPE" victimType="ego_veh" colliderSpeed="0.00" victimSpeed="6.86"/>
+</collisions>

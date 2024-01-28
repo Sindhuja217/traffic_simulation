@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="default" impatience="0.50" laneChangeModel="LC2013" lcAccelLat="20" lcAssertive="1" lcPushy="1" lcImpatience="1" lcSigma = "0.7" lcSpeedGain = "5" lcStrategic="0" lcCooperative = "0.2" lcOvertakeRight="1" jmSigmaMinor="1" jmIgnoreFoeSpeed="20" jmTimegapMinor="0.3" jmIgnoreJunctionFoeProb = "1" jmIgnoreKeepClearTime = "1" carFollowModel="EIDM" sigma="0.5" tau="1.0" collisionMinGapFactor="0.5" sigmagap="0.5" sigmaerror="0.3" decel="26" emergencyDecel="20" color="0.5,0.5,0.5"/>
+    <vType id="aggressive" maxSpeed="50" accel="6" decel="6" emergencyDecel="9" minGap="0.5" tau="0.03" collisionMinGapFactor="0.3" impatience="1.0" laneChangeModel="LC2013" lcStrategic="5.0" lcCooperative="0.5" lcSpeedgain="5.0" lcPushy="1.0" lcImpatience="1.00" jmIgnoreFoeProb="0.5" carFollowModel="EIDM" sigmagap="0.5" sigmaerror="0.1" color="1.0,0.0,0.0"/>
+    <vType id="speeder" maxSpeed="60" accel="6" decel="10" emergencyDecel="12" minGap="0.2" tau="0.01" sigma="0.4" speedFactor="1.2" speedDev="0.1" collisionMinGapFactor="0.5" impatience="1" laneChangeModel="LC2013" lcStrategic="0" jmSigmaMinor="1" jmIgnoreFoeSpeed="25" jmIgnoreFoeProb = "0.5"  jmTimegapMinor="0.3" carFollowModel="EIDM" overtaking="true" color="1.0,1.0,0.0"/>
+    <vType id="distracted" maxSpeed="20" accel="1.5" decel="1.5" minGap="1.5" tau="0.09" sigmaerror="0.2" carFollowModel="EIDM" color="0.7,0.7,0.7"/>
+    <vType id="inexperienced" maxSpeed="20" accel="1.5" decel="2" minGap="2" tau="0.06" sigma="0.6" carFollowModel="EIDM" color="0.6,0.3,1.0"/>
+    <vType id="tailgater" maxSpeed="25" accel="3" decel="3" emergencyDecel="5" minGap="0.2" tau="0.08" collisionMinGapFactor="0.1" impatience="1" lcStrategic="5.0" lcCooperative="0.0" lcSpeedGain="5.0" lcKeepRight="0.1" carFollowModel="EIDM" color="0.0,1.0,0.0"/>
+    <vType id="passive" maxSpeed="20" accel="1.5" decel="3" emergencyDecel="4" minGap="1.5" tau="0.05" collisionMinGapFactor="0.5" carFollowModel="EIDM" color="0.0,0.0,1.0"/>
+
+  
+
+    <!-- Flows for Default vehicles -->
+    <flow id="flow_default_N" type="default" begin="0" end="200" number="50" from="-E30" to="E31" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_E" type="default" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_S" type="default" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_W" type="default" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Aggressive vehicles -->
+    <flow id="flow_aggressive_N" type="aggressive" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_aggressive_E" type="aggressive" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_aggressive_W" type="aggressive" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_speeder_N" type="speeder" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_speeder_S" type="speeder" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_speeder_W" type="speeder" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+    
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_distracted_E" type="distracted" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_distracted_S" type="distracted" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_distracted_W" type="distracted" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_inexperienced_N" type="inexperienced" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_inexperienced_E" type="inexperienced" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_inexperienced_S" type="inexperienced" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Tailgater vehicles -->
+    <flow id="flow_tailgater_N" type="tailgater" begin="0" end="200" number="50" from="-E30" to="E31" departLane="free" departSpeed="max"/>
+    <flow id="flow_tailgater_E" type="tailgater" begin="0" end="200" number="50" from="-E31" to="E32" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Passive vehicles -->
+    <flow id="flow_passive_N" type="passive" begin="0" end="200" number="50" from="-E30" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_passive_W" type="passive" begin="5" end="200" number="50" from="-E29" to="E32" departLane="free" departSpeed="max"/>
+
+    
+</routes>

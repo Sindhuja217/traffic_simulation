@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-15 17:17:09 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\scene3.net.xml"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\scene3.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\outputs/fcd_op.xml"/>
+        <fcd-output.geo value="true"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <summary-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\outputs/sum_op.xml"/>
+        <lanechange-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\outputs/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\outputs/collision.xml"/>
+        <statistic-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\study1-explore_SUMO\scenario_3\outputs/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.stoptime value="30.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<lanechanges>
+</lanechanges>

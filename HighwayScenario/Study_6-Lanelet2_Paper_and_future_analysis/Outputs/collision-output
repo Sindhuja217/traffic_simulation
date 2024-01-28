@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-13 19:39:38 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Highway_route.net.xml"/>
+        <route-files value="Highway.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="fcd-output.xml"/>
+        <fcd-output.geo value="true"/>
+        <amitran-output value="trajectory"/>
+        <collision-output value="collision-output"/>
+        <statistic-output value="statistic-output"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="40"/>
+    </processing>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="31.00" type="collision" lane="E3_1" pos="50.71" collider="f_0.6" victim="f_1.8" colliderType="Motorcycle" victimType="RecklessDriver" colliderSpeed="17.82" victimSpeed="12.84"/>
+    <collision time="36.00" type="collision" lane="-E4_2" pos="68.56" collider="f_4.8" victim="f_4.5" colliderType="RecklessDriver" victimType="AggressiveLanechangingdriver" colliderSpeed="18.07" victimSpeed="15.78"/>
+    <collision time="37.00" type="collision" lane="E2_1" pos="18.66" collider="f_1.4" victim="f_1.7" colliderType="CautiousDriver" victimType="SportsCarDriver" colliderSpeed="13.84" victimSpeed="10.67"/>
+    <collision time="52.00" type="collision" lane="E3_2" pos="49.91" collider="f_0.14" victim="f_0.12" colliderType="SportsCarDriver" victimType="RecklessDriver" colliderSpeed="20.83" victimSpeed="17.26"/>
+    <collision time="57.00" type="collision" lane="E3_2" pos="33.59" collider="f_1.12" victim="f_0.15" colliderType="AggressiveDriver" victimType="AggressiveDriver" colliderSpeed="23.60" victimSpeed="17.92"/>
+    <collision time="59.00" type="collision" lane="-E1_0" pos="112.03" collider="f_5.12" victim="f_5.11" colliderType="RecklessDriver" victimType="AggressiveDriver" colliderSpeed="16.12" victimSpeed="13.44"/>
+    <collision time="76.00" type="collision" lane="-E1_1" pos="109.42" collider="f_5.16" victim="f_5.15" colliderType="SportsCarDriver" victimType="ElderlyDriver" colliderSpeed="8.71" victimSpeed="5.80"/>
+    <collision time="103.00" type="collision" lane="-E1_0" pos="100.65" collider="f_5.22" victim="f_5.21" colliderType="HumanLikeDriver" victimType="DefensiveDriver" colliderSpeed="5.63" victimSpeed="1.60"/>
+    <collision time="151.00" type="collision" lane="E2_1" pos="5.93" collider="f_1.38" victim="f_1.40" colliderType="Aggressivejunctiondriver" victimType="RecklessDriver" colliderSpeed="12.95" victimSpeed="11.66"/>
+    <collision time="154.00" type="collision" lane="-E1_0" pos="113.58" collider="f_5.36" victim="f_5.35" colliderType="RecklessDriver" victimType="AggressiveDriver" colliderSpeed="16.24" victimSpeed="12.69"/>
+    <collision time="234.00" type="collision" lane="E3_2" pos="28.28" collider="f_1.67" victim="f_0.67" colliderType="AggressiveDriver" victimType="AggressiveLanechangingdriver" colliderSpeed="22.94" victimSpeed="21.03"/>
+    <collision time="234.00" type="collision" lane="-E1_1" pos="91.16" collider="f_4.57" victim="f_5.55" colliderType="RecklessDriver" victimType="SportsCarDriver" colliderSpeed="17.40" victimSpeed="13.73"/>
+    <collision time="239.00" type="collision" lane="-E3_1" pos="38.69" collider="f_3.60" victim="f_5.60" colliderType="AggressiveDriver" victimType="AggressiveDriver" colliderSpeed="18.83" victimSpeed="13.79"/>
+    <collision time="246.00" type="collision" lane="E3_2" pos="60.02" collider="f_1.71" victim="f_0.71" colliderType="RecklessDriver" victimType="RecklessDriver" colliderSpeed="18.39" victimSpeed="15.99"/>
+    <collision time="246.00" type="collision" lane="E4_1" pos="19.52" collider="f_1.74" victim="f_0.77" colliderType="Motorcycle" victimType="RecklessDriver" colliderSpeed="13.94" victimSpeed="2.28"/>
+    <collision time="267.00" type="collision" lane="-E1_1" pos="108.12" collider="f_4.64" victim="f_5.63" colliderType="AggressiveLanechangingdriver" victimType="AggressiveLanechangingdriver" colliderSpeed="9.50" victimSpeed="8.50"/>
+    <collision time="282.00" type="collision" lane="-E4_2" pos="79.26" collider="f_3.69" victim="f_3.66" colliderType="AggressiveDriver" victimType="InexperiencedDriver" colliderSpeed="19.03" victimSpeed="14.47"/>
+    <collision time="308.00" type="collision" lane="-E1_0" pos="116.71" collider="f_5.75" victim="f_4.76" colliderType="HumanLikeDriver" victimType="AggressiveLanechangingdriver" colliderSpeed="7.78" victimSpeed="1.93"/>
+    <collision time="366.00" type="collision" lane="-E1_0" pos="106.33" collider="f_5.89" victim="f_5.88" colliderType="RecklessDriver" victimType="EcoFriendlyDriver" colliderSpeed="12.37" victimSpeed="11.19"/>
+    <collision time="383.00" type="collision" lane="E3_2" pos="46.33" collider="f_0.113" victim="f_1.111" colliderType="AggressiveLanechangingdriver" victimType="RecklessDriver" colliderSpeed="19.99" victimSpeed="15.16"/>
+</collisions>

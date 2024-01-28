@@ -1,0 +1,1 @@
+{"1": {"collisions": [{"time": 49.1, "lane": ":J2_13_0", "collider": "non_ego_flow.5", "colliderSpeed": 7.82, "colliderType": "non-ego", "pos": 15.59, "type": "junction", "victim": "ego_vehicle", "victimSpeed": 6.39, "victimType": "ego"}], "total collisions": 1, "emergency brakes": 1}}

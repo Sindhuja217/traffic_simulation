@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-16 03:03:23 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\Intersection\Study_3-veh_type_param_analysis\vehicle_parameter_analysis\intersec.net.xml"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\Intersection\Study_3-veh_type_param_analysis\vehicle_parameter_analysis\intersec.rou.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\Intersection\Study_3-veh_type_param_analysis\vehicle_parameter_analysis\output/collisions.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

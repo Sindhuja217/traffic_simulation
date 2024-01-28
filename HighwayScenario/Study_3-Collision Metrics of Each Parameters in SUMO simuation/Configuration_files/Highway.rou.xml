@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-17 13:16:19 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" laneChangeModel="SL2015" carFollowModel="EIDM" collisionMinGapFactor="1.5"/>
+    <vType id="DEFAULT_KRAUSS" accel="2.0" decel="4.5" sigma="0.9" laneChangeModel="SL2015" maxSpeed="30.0" carFollowModel="Krauss"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vType id="passive" carFollowModel="IDM" maxSpeed="10" accel="1" decel="1" minGap = "5" tau="1.75" color="0.0,0.0,1.0"/>
+    <vType id="aggressive" carFollowModel="IDM" maxSpeed="30" accel="5" decel="5" minGap = "1" tau="0.25" color="1.0,0.0,0.0"/>
+    
+    <!-- Define Tailgater and Speeder vehicle types -->
+    <vType id="tailgater" carFollowModel="IDM" maxSpeed="15" accel="1" decel="1" minGap = "1" tau="0.25" color="0.0,1.0,0.0"/>
+    <vType id="speeder" carFollowModel="IDM" maxSpeed="30" accel="5" decel="5" minGap = "5" tau="1.75" color="1.0,1.0,0.0"/>
+    
+    <flow id="f_0_p" type="passive" begin="0.00" from="E0" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_0_a" type="aggressive" begin="0.00" from="E0" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_0_t" type="tailgater" begin="0.00" from="E0" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_0_s" type="speeder" begin="0.00" from="E0" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_1_p" type="passive" begin="0.00" from="E5" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_1_a" type="aggressive" begin="0.00" from="E5" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_1_t" type="tailgater" begin="0.00" from="E5" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_1_s" type="speeder" begin="0.00" from="E5" to="E2" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_2_p" type="passive" begin="0.00" from="E0" to="E6" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_2_a" type="aggressive" begin="0.00" from="E0" to="E6" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_2_t" type="tailgater" begin="0.00" from="E0" to="E6" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_2_s" type="speeder" begin="0.00" from="E0" to="E6" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_3_p" type="passive" begin="0.00" from="-E2" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_3_a" type="aggressive" begin="0.00" from="-E2" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_3_t" type="tailgater" begin="0.00" from="-E2" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_3_s" type="speeder" begin="0.00" from="-E2" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_4_p" type="passive" begin="0.00" from="E7" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_4_a" type="aggressive" begin="0.00" from="E7" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_4_t" type="tailgater" begin="0.00" from="E7" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_4_s" type="speeder" begin="0.00" from="E7" to="-E0" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_5_p" type="passive" begin="0.00" from="-E2" to="E8" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_5_a" type="aggressive" begin="0.00" from="-E2" to="E8" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_5_t" type="tailgater" begin="0.00" from="-E2" to="E8" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+    <flow id="f_5_s" type="speeder" begin="0.00" from="-E2" to="E8" end="600.00" number="200" departPos="random" departLane = "free" departPosLat="random_free" arrivalPos="random" arrivalLane = "random"/>
+</routes>

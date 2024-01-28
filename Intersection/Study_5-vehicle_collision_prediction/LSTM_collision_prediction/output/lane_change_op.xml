@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 13:03:19 by Eclipse SUMO sumo Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersec.net.xml"/>
+        <route-files value="intersec.rou.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="output/em_op.xml"/>
+        <fcd-output value="output/fcd_op.xml"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <full-output value="output/full_op.xml"/>
+        <summary-output value="output/sum_op.xml"/>
+        <lanechange-output value="output/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="output/collisions.xml"/>
+        <statistic-output value="output/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.stoptime value="2.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <report>
+        <log value="simulation_main.log"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="50887"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<lanechanges>
+    <change id="ego_vehicle" type="ego" time="2.70" from="-E6_0" to="-E6_1" dir="1" speed="0.00" pos="5.10" reason="strategic" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="1.62" origLeaderSecureGap="0.00" origLeaderSpeed="5.50" x="244.90" y="4.80"/>
+    <change id="non_ego_flow.5" type="non-ego" time="10.10" from="-E6_0" to="-E6_1" dir="1" speed="0.01" pos="5.10" reason="strategic" leaderGap="74.75" leaderSecureGap="0.00" leaderSpeed="14.80" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="34.15" origLeaderSecureGap="0.00" origLeaderSpeed="12.36" x="244.90" y="4.80"/>
+    <change id="non_ego_flow.7" type="non-ego" time="15.00" from="-E7_0" to="-E7_1" dir="1" speed="0.00" pos="5.10" reason="strategic" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="3.77" origLeaderSecureGap="0.00" origLeaderSpeed="6.65" x="4.80" y="-194.90"/>
+    <change id="non_ego_flow.6" type="non-ego" time="15.60" from="-E7_0" to="-E7_1" dir="1" speed="8.01" pos="18.35" reason="strategic|urgent" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="8.13" followerSecureGap="0.14" followerSpeed="0.56" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="4.80" y="-181.65"/>
+    <change id="non_ego_flow.3" type="non-ego" time="20.40" from="E0_0" to="E0_1" dir="1" speed="12.00" pos="153.87" reason="speedGain" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="24.93" origLeaderSecureGap="20.15" origLeaderSpeed="3.27" x="-46.13" y="-4.80"/>
+    <change id="non_ego_flow.2" type="non-ego" time="36.80" from="-E1_0" to="-E1_1" dir="1" speed="6.22" pos="5.80" reason="speedGain" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="43.04" followerSecureGap="3.67" followerSpeed="4.73" origLeaderGap="27.16" origLeaderSecureGap="8.85" origLeaderSpeed="0.41" x="44.20" y="4.80"/>
+    <change id="non_ego_flow.3" type="non-ego" time="83.90" from="E6_1" to="E6_0" dir="-1" speed="12.61" pos="90.20" reason="keepRight" leaderGap="None" leaderSecureGap="None" leaderSpeed="None" followerGap="None" followerSecureGap="None" followerSpeed="None" origLeaderGap="None" origLeaderSecureGap="None" origLeaderSpeed="None" x="240.20" y="-1.60"/>
+</lanechanges>

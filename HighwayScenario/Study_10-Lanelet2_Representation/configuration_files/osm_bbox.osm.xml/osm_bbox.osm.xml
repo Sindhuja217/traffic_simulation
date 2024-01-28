@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-12-13T21:04:45Z"/>
+
+  <node id="300307469" lat="42.9428525" lon="-81.1841905">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300307472" lat="42.9484361" lon="-81.1858225"/>
+  <node id="300308170" lat="42.9459297" lon="-81.1846912"/>
+  <node id="300308183" lat="42.9461508" lon="-81.1847037"/>
+  <node id="300308202" lat="42.9463932" lon="-81.1846085"/>
+  <node id="300308219" lat="42.9465594" lon="-81.1843514">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308235" lat="42.9466536" lon="-81.1840081">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308250" lat="42.9466379" lon="-81.1837077">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308265" lat="42.9465123" lon="-81.1834931">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308287" lat="42.9463709" lon="-81.1833214">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308299" lat="42.9462296" lon="-81.1833214">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308320" lat="42.9459625" lon="-81.1833644">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300308331" lat="42.9454931" lon="-81.1838199"/>
+  <node id="300308363" lat="42.9460151" lon="-81.1828941"/>
+  <node id="300308487" lat="42.9448160" lon="-81.1866474">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300312840" lat="42.9597636" lon="-81.1891399">
+    <tag k="created_by" v="Merkaartor 0.12"/>
+  </node>
+  <node id="300313097" lat="42.9632094" lon="-81.1880562">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="347549962" lat="42.9618423" lon="-81.1916263"/>
+  <node id="347550739" lat="42.9625955" lon="-81.1878552"/>
+  <node id="347550824" lat="42.9614747" lon="-81.1903144"/>
+  <node id="347551271" lat="42.9623453" lon="-81.1918516"/>
+  <node id="347552036" lat="42.9612249" lon="-81.1889451"/>
+  <node id="347552639" lat="42.9624537" lon="-81.1878474"/>
+  <node id="347552716" lat="42.9608094" lon="-81.1897070"/>
+  <node id="347552799" lat="42.9620460" lon="-81.1883291"/>
+  <node id="347553135" lat="42.9619323" lon="-81.1890379"/>
+  <node id="347553223" lat="42.9621418" lon="-81.1893654"/>
+  <node id="347553455" lat="42.9613503" lon="-81.1888543"/>
+  <node id="347554234" lat="42.9612312" lon="-81.1907701"/>
+  <node id="347554465" lat="42.9610895" lon="-81.1890035"/>
+  <node id="347554477" lat="42.9618923" lon="-81.1888028"/>
+  <node id="347554942" lat="42.9624615" lon="-81.1895815"/>
+  <node id="347555070" lat="42.9620269" lon="-81.1917199"/>
+  <node id="347555252" lat="42.9619769" lon="-81.1884400"/>
+  <node id="347555606" lat="42.9605679" lon="-81.1895022"/>
+  <node id="347555728" lat="42.9622974" lon="-81.1894850"/>
+  <node id="347555907" lat="42.9619078" lon="-81.1889467"/>
+  <node id="347555934" lat="42.9621698" lon="-81.1881565"/>
+  <node id="347556047" lat="42.9620601" lon="-81.1892711"/>
+  <node id="347556148" lat="42.9619675" lon="-81.1891226"/>
+  <node id="347556183" lat="42.9616308" lon="-81.1901156"/>
+  <node id="347556248" lat="42.9623957" lon="-81.1916597"/>
+  <node id="347556257" lat="42.9623853" lon="-81.1879860"/>
+  <node id="347556346" lat="42.9613361" lon="-81.1910244"/>
+  <node id="347556565" lat="42.9622918" lon="-81.1880564"/>
+  <node id="347556568" lat="42.9606646" lon="-81.1895648"/>
+  <node id="347556607" lat="42.9619395" lon="-81.1885222"/>
+  <node id="347556668" lat="42.9624875" lon="-81.1879606"/>
+  <node id="347556679" lat="42.9626336" lon="-81.1879550"/>
+  <node id="347556789" lat="42.9608831" lon="-81.1898127"/>
+  <node id="347556818" lat="42.9615201" lon="-81.1902386"/>
+  <node id="347556844" lat="42.9614200" lon="-81.1908299"/>
+  <node id="347557040" lat="42.9609483" lon="-81.1890274"/>
+  <node id="347557335" lat="42.9619031" lon="-81.1886584"/>
+  <node id="347557401" lat="42.9621522" lon="-81.1900130"/>
+  <node id="347557449" lat="42.9618308" lon="-81.1900116"/>
+  <node id="347557795" lat="42.9609611" lon="-81.1899757"/>
+  <node id="347558106" lat="42.9618993" lon="-81.1914309"/>
+  <node id="347558782" lat="42.9614416" lon="-81.1904004"/>
+  <node id="347558786" lat="42.9622111" lon="-81.1916045"/>
+  <node id="347558794" lat="42.9621851" lon="-81.1879532"/>
+  <node id="347559955" lat="42.9620097" lon="-81.1900012"/>
+  <node id="347560476" lat="42.9615719" lon="-81.1901712"/>
+  <node id="347560539" lat="42.9617622" lon="-81.1900380"/>
+  <node id="347560831" lat="42.9620671" lon="-81.1880612"/>
+  <node id="347561301" lat="42.9614688" lon="-81.1912534"/>
+  <node id="347561981" lat="42.9617529" lon="-81.1912926"/>
+  <node id="347562197" lat="42.9614149" lon="-81.1904912"/>
+  <node id="347562254" lat="42.9623145" lon="-81.1878739"/>
+  <node id="347562319" lat="42.9616616" lon="-81.1914695"/>
+  <node id="347562329" lat="42.9615658" lon="-81.1911157"/>
+  <node id="347562529" lat="42.9614291" lon="-81.1908771"/>
+  <node id="347562568" lat="42.9614080" lon="-81.1905388"/>
+  <node id="347562777" lat="42.9620614" lon="-81.1915284"/>
+  <node id="347563206" lat="42.9608057" lon="-81.1890234"/>
+  <node id="347563515" lat="42.9614072" lon="-81.1906850"/>
+  <node id="347563641" lat="42.9614784" lon="-81.1910066"/>
+  <node id="1552359266" lat="42.9453511" lon="-81.1849272"/>
+  <node id="1552359272" lat="42.9453661" lon="-81.1846540"/>
+  <node id="1552359283" lat="42.9522868" lon="-81.1867113"/>
+  <node id="1552359291" lat="42.9546433" lon="-81.1873654"/>
+  <node id="1552359295" lat="42.9560335" lon="-81.1880791"/>
+  <node id="1552359322" lat="42.9598834" lon="-81.1888812">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="noref" v="yes"/>
+  </node>
+  <node id="1607088010" lat="42.9627297" lon="-81.1918464">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1609074331" lat="42.9429255" lon="-81.1839156">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="noref" v="yes"/>
+  </node>
+  <node id="1609074346" lat="42.9450206" lon="-81.1867392"/>
+  <node id="1609074359" lat="42.9454229" lon="-81.1867167"/>
+  <node id="1609074361" lat="42.9461048" lon="-81.1827500"/>
+  <node id="1609074362" lat="42.9463685" lon="-81.1861789"/>
+  <node id="1609074363" lat="42.9465985" lon="-81.1833600"/>
+  <node id="1609074364" lat="42.9469685" lon="-81.1841970"/>
+  <node id="1609074365" lat="42.9469410" lon="-81.1858772"/>
+  <node id="1609074367" lat="42.9475355" lon="-81.1849971"/>
+  <node id="1609074368" lat="42.9475840" lon="-81.1858299"/>
+  <node id="1609074369" lat="42.9492762" lon="-81.1857839"/>
+  <node id="1609074370" lat="42.9492359" lon="-81.1860819">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="noref" v="yes"/>
+  </node>
+  <node id="1954991995" lat="42.9631654" lon="-81.1880806"/>
+  <node id="1954991997" lat="42.9631615" lon="-81.1879994"/>
+  <node id="1954991999" lat="42.9627905" lon="-81.1879783"/>
+  <node id="1954992001" lat="42.9628012" lon="-81.1878814"/>
+  <node id="1954992027" lat="42.9628413" lon="-81.1900530">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="noref" v="yes"/>
+  </node>
+  <node id="1954992028" lat="42.9628907" lon="-81.1897966"/>
+  <node id="2019008852" lat="42.9626411" lon="-81.1919253"/>
+  <node id="2019008855" lat="42.9626677" lon="-81.1917531"/>
+  <node id="2035834280" lat="42.9442664" lon="-81.1842111"/>
+  <node id="2035834291" lat="42.9484726" lon="-81.1855516"/>
+  <node id="4117202429" lat="42.9452240" lon="-81.1867578"/>
+  <node id="4117202430" lat="42.9480351" lon="-81.1852960"/>
+  <node id="4876308985" lat="42.9627243" lon="-81.1900730"/>
+  <node id="4876308986" lat="42.9621736" lon="-81.1917964"/>
+  <node id="4876308987" lat="42.9626883" lon="-81.1918123"/>
+  <node id="4876308988" lat="42.9626835" lon="-81.1918628"/>
+  <node id="9726192641" lat="42.9630945" lon="-81.1879617"/>
+  <node id="9726253200" lat="42.9631239" lon="-81.1880757"/>
+  <node id="9726253201" lat="42.9631882" lon="-81.1880777"/>
+  <way id="27354548">
+    <nd ref="300308287"/>
+    <nd ref="300308363"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+  </way>
+  <way id="31259271">
+    <nd ref="300313097"/>
+    <nd ref="9726253201"/>
+    <nd ref="1954991995"/>
+    <nd ref="9726253200"/>
+    <nd ref="1954991999"/>
+    <nd ref="347556679"/>
+    <nd ref="347556668"/>
+    <nd ref="347556257"/>
+    <nd ref="347556565"/>
+    <nd ref="347555934"/>
+    <nd ref="347552799"/>
+    <nd ref="347555252"/>
+    <nd ref="347556607"/>
+    <nd ref="347557335"/>
+    <nd ref="347554477"/>
+    <nd ref="347555907"/>
+    <nd ref="347553135"/>
+    <nd ref="347556148"/>
+    <nd ref="347556047"/>
+    <nd ref="347553223"/>
+    <nd ref="347555728"/>
+    <nd ref="347554942"/>
+    <nd ref="1954992028"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="31259812">
+    <nd ref="1954992027"/>
+    <nd ref="4876308985"/>
+    <nd ref="347557401"/>
+    <nd ref="347559955"/>
+    <nd ref="347557449"/>
+    <nd ref="347560539"/>
+    <nd ref="347556183"/>
+    <nd ref="347560476"/>
+    <nd ref="347556818"/>
+    <nd ref="347550824"/>
+    <nd ref="347558782"/>
+    <nd ref="347562197"/>
+    <nd ref="347562568"/>
+    <nd ref="347563515"/>
+    <nd ref="347556844"/>
+    <nd ref="347562529"/>
+    <nd ref="347563641"/>
+    <nd ref="347562329"/>
+    <nd ref="347561981"/>
+    <nd ref="347558106"/>
+    <nd ref="347562777"/>
+    <nd ref="347558786"/>
+    <nd ref="347556248"/>
+    <nd ref="2019008855"/>
+    <nd ref="4876308987"/>
+    <nd ref="1607088010"/>
+    <tag k="destination" v="Commissioners Road"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="31260255">
+    <nd ref="1552359322"/>
+    <nd ref="347563206"/>
+    <nd ref="347557040"/>
+    <nd ref="347554465"/>
+    <nd ref="347552036"/>
+    <nd ref="347553455"/>
+    <nd ref="347560831"/>
+    <nd ref="347558794"/>
+    <nd ref="347562254"/>
+    <nd ref="347552639"/>
+    <nd ref="347550739"/>
+    <nd ref="1954992001"/>
+    <nd ref="9726192641"/>
+    <nd ref="1954991997"/>
+    <nd ref="300313097"/>
+    <tag k="destination" v="Commissioners Road"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+  </way>
+  <way id="31260435">
+    <nd ref="1607088010"/>
+    <nd ref="4876308988"/>
+    <nd ref="2019008852"/>
+    <nd ref="347551271"/>
+    <nd ref="4876308986"/>
+    <nd ref="347555070"/>
+    <nd ref="347549962"/>
+    <nd ref="347562319"/>
+    <nd ref="347561301"/>
+    <nd ref="347556346"/>
+    <nd ref="347554234"/>
+    <nd ref="347557795"/>
+    <nd ref="347556789"/>
+    <nd ref="347552716"/>
+    <nd ref="347556568"/>
+    <nd ref="347555606"/>
+    <nd ref="300312840"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="141818136">
+    <nd ref="1609074331"/>
+    <nd ref="2035834280"/>
+    <nd ref="300308170"/>
+    <nd ref="300308183"/>
+    <nd ref="300308202"/>
+    <nd ref="300308219"/>
+    <nd ref="300308235"/>
+    <nd ref="300308250"/>
+    <nd ref="300308265"/>
+    <nd ref="300308287"/>
+    <nd ref="300308299"/>
+    <nd ref="300308320"/>
+    <nd ref="300308331"/>
+    <tag k="destination" v="Bradley Avenue"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="Geobase_Import_2009"/>
+  </way>
+  <way id="141818139">
+    <nd ref="1609074331"/>
+    <nd ref="1552359272"/>
+    <nd ref="2035834291"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Highbury Avenue South"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="141818140">
+    <nd ref="300312840"/>
+    <nd ref="1552359295"/>
+    <nd ref="1609074370"/>
+    <nd ref="300307472"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Highbury Avenue South"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="141818143">
+    <nd ref="1552359322"/>
+    <nd ref="1954992028"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="Highbury Avenue South"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="147709883">
+    <nd ref="1609074361"/>
+    <nd ref="1609074363"/>
+    <nd ref="1609074364"/>
+    <nd ref="1609074367"/>
+    <nd ref="4117202430"/>
+    <nd ref="1609074369"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="147709884">
+    <nd ref="1609074370"/>
+    <nd ref="1609074368"/>
+    <nd ref="1609074365"/>
+    <nd ref="1609074362"/>
+    <nd ref="1609074359"/>
+    <nd ref="4117202429"/>
+    <nd ref="1609074346"/>
+    <nd ref="300308487"/>
+    <tag k="destination:street" v="Bradley Avenue"/>
+    <tag k="highway" v="motorway_link"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="193049818">
+    <nd ref="2035834291"/>
+    <nd ref="1609074369"/>
+    <nd ref="1552359283"/>
+    <nd ref="1552359291"/>
+    <nd ref="1552359322"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Highbury Avenue South"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="193049819">
+    <nd ref="300307472"/>
+    <nd ref="1552359266"/>
+    <nd ref="300307469"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Highbury Avenue South"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+  <way id="319032606">
+    <nd ref="1954992027"/>
+    <nd ref="300312840"/>
+    <tag k="highway" v="motorway"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="100"/>
+    <tag k="name" v="Highbury Avenue South"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <relation id="6996458">
+    <member type="way" ref="141818136" role="from"/>
+    <member type="node" ref="300308331" role="via"/>
+    <member type="way" ref="475875646" role="to"/>
+    <tag k="restriction" v="no_left_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="6996459">
+    <member type="way" ref="27354548" role="from"/>
+    <member type="node" ref="300308363" role="via"/>
+    <member type="way" ref="475875646" role="to"/>
+    <tag k="restriction" v="no_right_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="7281803">
+    <member type="way" ref="31259812" role="from"/>
+    <member type="node" ref="1607088010" role="via"/>
+    <member type="way" ref="31260435" role="to"/>
+    <tag k="restriction" v="no_left_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+
+</osm>

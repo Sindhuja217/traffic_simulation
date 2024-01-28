@@ -1,0 +1,28 @@
+<routes>
+    <vType id="car" accel="2.0" decel="4.5" sigma="0.5" length="10.0" maxSpeed="30.0" carFollowModel="Krauss"/>
+    <vType id="car1" accel="2.0" decel="4.5" sigma="0.9" length="10.0" maxSpeed="30.0" carFollowModel="Krauss"/>
+
+    <route id="route1" edges="E0 -E7 -E6 E2"/>
+    <vehicle id="vehicle1" type="car" route="route1" depart="0" departLane="free" color="yellow"/>
+
+    <route id="route5" edges="E0 -E7 E3"/>
+    <vehicle id="vehicle5" type="car" route="route5" depart="0" departLane="free" color="blue"/>
+
+    <route id="route2" edges="-E2 -E5 E1"/>
+    <vehicle id="vehicle2" type="car" route="route2" depart="0" departLane="free" color="yellow"/>
+
+    <route id="route3" edges="-E3 -E6 -E5 E1"/>
+    <vehicle id="vehicle3" type="car1" route="route3" depart="0" departLane="free" color="yellow"/>
+
+    <route id="route4" edges="-E1 -E4 -E0"/>
+    <vehicle id="vehicle4" type="car" route="route4" depart="0" departLane="free" color="yellow"/>
+
+    <route id="route6" edges="-E3 -E6 E2"/>
+    <vehicle id="vehicle6" type="car" route="route6" depart="0" departLane="free" color="yellow"/>
+
+    <route id="route7" edges="-E1 -E4 -E7 -E6 E2"/>
+    <stop lane="E2_0" endPos="5" until="200"/>
+    <vehicle id="vehicle7" type="car" route="route7" depart="0" departLane="free" color="red"/>
+
+    <vehicle id="vehicle8" type="car" route="route7" depart="0" departLane="free" color="red"/>
+</routes>

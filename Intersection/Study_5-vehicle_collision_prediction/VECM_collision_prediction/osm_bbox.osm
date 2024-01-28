@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-12-12T19:41:45Z"/>
+  <node id="297024077" lat="43.4519124" lon="-80.4874598">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="298584875" lat="43.4513563" lon="-80.4861090">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="298584876" lat="43.4503145" lon="-80.4869283">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="421163789" lat="43.4519387" lon="-80.4851030"/>
+  <node id="545312664" lat="43.4519945" lon="-80.4869790"/>
+  <node id="545312665" lat="43.4516976" lon="-80.4863300"/>
+  <node id="545312667" lat="43.4517852" lon="-80.4861531"/>
+  <node id="545312671" lat="43.4521277" lon="-80.4869593"/>
+  <node id="545312672" lat="43.4520792" lon="-80.4865263"/>
+  <node id="545312674" lat="43.4519405" lon="-80.4865984">
+    <tag k="entrance" v="main"/>
+  </node>
+  <node id="818544411" lat="43.4512340" lon="-80.4846378"/>
+  <node id="818544471" lat="43.4508953" lon="-80.4846052"/>
+  <node id="818544521" lat="43.4511910" lon="-80.4852774"/>
+  <node id="818544586" lat="43.4515195" lon="-80.4855783"/>
+  <node id="818544612" lat="43.4509712" lon="-80.4849645"/>
+  <node id="818544659" lat="43.4512450" lon="-80.4847430"/>
+  <node id="818544730" lat="43.4510362" lon="-80.4843421"/>
+  <node id="818544848" lat="43.4514103" lon="-80.4857822"/>
+  <node id="818544872" lat="43.4509386" lon="-80.4846492"/>
+  <node id="818544968" lat="43.4512235" lon="-80.4845325"/>
+  <node id="818545079" lat="43.4512669" lon="-80.4856365"/>
+  <node id="818545140" lat="43.4515192" lon="-80.4852047"/>
+  <node id="1077042795" lat="43.4506616" lon="-80.4863666"/>
+  <node id="1077042820" lat="43.4502316" lon="-80.4861722"/>
+  <node id="1077042825" lat="43.4500303" lon="-80.4854019"/>
+  <node id="1077042830" lat="43.4504957" lon="-80.4850140"/>
+  <node id="1077044023" lat="43.4509751" lon="-80.4861053"/>
+  <node id="1162442212" lat="43.4519348" lon="-80.4856330">
+    <tag k="addr:housenumber" v="122"/>
+    <tag k="addr:postcode" v="N2H 2L9"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="amenity" v="theatre"/>
+    <tag k="name" v="Registry Theatre"/>
+    <tag k="operator" v="JM Drama"/>
+    <tag k="website" v="https://www.registrytheatre.com/"/>
+    <tag k="wikidata" v="Q56285771"/>
+  </node>
+  <node id="1514647961" lat="43.4512258" lon="-80.4868298"/>
+  <node id="1514647962" lat="43.4514050" lon="-80.4866822"/>
+  <node id="1514647964" lat="43.4515284" lon="-80.4875336"/>
+  <node id="1514647966" lat="43.4517061" lon="-80.4873884"/>
+  <node id="1521323610" lat="43.4511920" lon="-80.4860681"/>
+  <node id="1521323612" lat="43.4510413" lon="-80.4859719"/>
+  <node id="1521323613" lat="43.4511275" lon="-80.4859066"/>
+  <node id="1521323616" lat="43.4511058" lon="-80.4861334"/>
+  <node id="1521343347" lat="43.4509134" lon="-80.4866786"/>
+  <node id="1521343350" lat="43.4512063" lon="-80.4864477"/>
+  <node id="1521343355" lat="43.4513290" lon="-80.4867430"/>
+  <node id="1534177655" lat="43.4526248" lon="-80.4855554"/>
+  <node id="1534177658" lat="43.4520536" lon="-80.4856997"/>
+  <node id="1534177666" lat="43.4520038" lon="-80.4863188"/>
+  <node id="1534177680" lat="43.4518267" lon="-80.4856173"/>
+  <node id="1534177685" lat="43.4519770" lon="-80.4855050"/>
+  <node id="1534177695" lat="43.4518730" lon="-80.4860496"/>
+  <node id="1534177696" lat="43.4519033" lon="-80.4858120"/>
+  <node id="1534177697" lat="43.4522573" lon="-80.4858319"/>
+  <node id="1534177700" lat="43.4520760" lon="-80.4855724"/>
+  <node id="1534177702" lat="43.4521364" lon="-80.4855270"/>
+  <node id="1534177708" lat="43.4514843" lon="-80.4859325"/>
+  <node id="1534177710" lat="43.4519784" lon="-80.4853264"/>
+  <node id="1534177721" lat="43.4518718" lon="-80.4852269"/>
+  <node id="1534187910" lat="43.4524656" lon="-80.4842743"/>
+  <node id="1534187916" lat="43.4519515" lon="-80.4872869"/>
+  <node id="1534187918" lat="43.4515193" lon="-80.4862056"/>
+  <node id="1534187921" lat="43.4521420" lon="-80.4848796"/>
+  <node id="1534187928" lat="43.4518465" lon="-80.4854696"/>
+  <node id="1534187931" lat="43.4517219" lon="-80.4867479"/>
+  <node id="1534187933" lat="43.4515144" lon="-80.4861486"/>
+  <node id="1534187935" lat="43.4518967" lon="-80.4855650">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="1534189765" lat="43.4527028" lon="-80.4838389"/>
+  <node id="1543807819" lat="43.4516364" lon="-80.4874878">
+    <tag k="addr:city" v="Kitchener"/>
+    <tag k="addr:housenumber" v="57"/>
+    <tag k="addr:street" v="Queen Street North"/>
+  </node>
+  <node id="1696926639" lat="43.4517040" lon="-80.4850688"/>
+  <node id="1696926642" lat="43.4515463" lon="-80.4848086"/>
+  <node id="1696926643" lat="43.4518052" lon="-80.4851318"/>
+  <node id="1696926645" lat="43.4518053" lon="-80.4850125"/>
+  <node id="1696926650" lat="43.4517527" lon="-80.4851251"/>
+  <node id="1696926654" lat="43.4518149" lon="-80.4850674"/>
+  <node id="1696926655" lat="43.4516319" lon="-80.4854054"/>
+  <node id="1696926656" lat="43.4514527" lon="-80.4857916"/>
+  <node id="1696926658" lat="43.4514060" lon="-80.4858265"/>
+  <node id="1696926661" lat="43.4513266" lon="-80.4857886"/>
+  <node id="1696926665" lat="43.4517039" lon="-80.4853330"/>
+  <node id="1696926667" lat="43.4517294" lon="-80.4850071"/>
+  <node id="1696926669" lat="43.4515345" lon="-80.4856227"/>
+  <node id="1696926670" lat="43.4515541" lon="-80.4855462"/>
+  <node id="1696926672" lat="43.4516320" lon="-80.4851895"/>
+  <node id="1696926675" lat="43.4510981" lon="-80.4842165"/>
+  <node id="1696926676" lat="43.4516963" lon="-80.4852463"/>
+  <node id="1696926678" lat="43.4516047" lon="-80.4852512"/>
+  <node id="1696926679" lat="43.4514237" lon="-80.4850634"/>
+  <node id="1768678502" lat="43.4526128" lon="-80.4840202"/>
+  <node id="1768678503" lat="43.4519313" lon="-80.4852824"/>
+  <node id="1768678504" lat="43.4516832" lon="-80.4857947"/>
+  <node id="1812086857" lat="43.4512825" lon="-80.4870710"/>
+  <node id="1812086858" lat="43.4511913" lon="-80.4868516"/>
+  <node id="2027435521" lat="43.4522283" lon="-80.4860409"/>
+  <node id="2027435528" lat="43.4520457" lon="-80.4861824"/>
+  <node id="2027435530" lat="43.4521218" lon="-80.4857800"/>
+  <node id="2049190669" lat="43.4521980" lon="-80.4847748"/>
+  <node id="2049190671" lat="43.4529619" lon="-80.4834053"/>
+  <node id="2059923234" lat="43.4519392" lon="-80.4859214"/>
+  <node id="2060899620" lat="43.4507359" lon="-80.4845054"/>
+  <node id="2139165855" lat="43.4504839" lon="-80.4859620"/>
+  <node id="2143394094" lat="43.4500904" lon="-80.4855387"/>
+  <node id="2143394095" lat="43.4499901" lon="-80.4856223"/>
+  <node id="2155077225" lat="43.4519573" lon="-80.4871922"/>
+  <node id="2155077226" lat="43.4513873" lon="-80.4865424"/>
+  <node id="2155077228" lat="43.4518950" lon="-80.4867067"/>
+  <node id="2155077229" lat="43.4515854" lon="-80.4863124"/>
+  <node id="2155077232" lat="43.4517645" lon="-80.4861246"/>
+  <node id="2155077234" lat="43.4516094" lon="-80.4857020"/>
+  <node id="2155077235" lat="43.4518502" lon="-80.4865913"/>
+  <node id="2155077236" lat="43.4516438" lon="-80.4859744"/>
+  <node id="2155077237" lat="43.4513027" lon="-80.4864144"/>
+  <node id="2155077238" lat="43.4513161" lon="-80.4866016"/>
+  <node id="2155077239" lat="43.4516652" lon="-80.4862990"/>
+  <node id="2155077241" lat="43.4515561" lon="-80.4861675"/>
+  <node id="2155077244" lat="43.4513566" lon="-80.4866939"/>
+  <node id="2155077246" lat="43.4514278" lon="-80.4866347"/>
+  <node id="2155077247" lat="43.4512852" lon="-80.4866020"/>
+  <node id="2155077248" lat="43.4516827" lon="-80.4864009"/>
+  <node id="2155077249" lat="43.4513569" lon="-80.4865459"/>
+  <node id="2155077250" lat="43.4512311" lon="-80.4864705"/>
+  <node id="2155079535" lat="43.4517606" lon="-80.4857384"/>
+  <node id="2155079539" lat="43.4520540" lon="-80.4863019"/>
+  <node id="2155079543" lat="43.4519982" lon="-80.4863559"/>
+  <node id="2155079547" lat="43.4518657" lon="-80.4858645"/>
+  <node id="2155079550" lat="43.4516671" lon="-80.4859181"/>
+  <node id="2155079553" lat="43.4518365" lon="-80.4861085"/>
+  <node id="2155084775" lat="43.4518974" lon="-80.4866197"/>
+  <node id="2155084778" lat="43.4515484" lon="-80.4862212"/>
+  <node id="2168303644" lat="43.4514157" lon="-80.4856253">
+    <tag k="addr:city" v="Kitchener"/>
+    <tag k="addr:housenumber" v="101"/>
+    <tag k="addr:postcode" v="N2H 6R2"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="amenity" v="clinic"/>
+    <tag k="brand" v="LASIK MD"/>
+    <tag k="brand:wikidata" v="Q3205934"/>
+    <tag k="check_date" v="2023-05-22"/>
+    <tag k="email" v="info@lasikmd.com"/>
+    <tag k="fax" v="+1-519-772-1288"/>
+    <tag k="healthcare" v="clinic"/>
+    <tag k="healthcare:speciality" v="ophthalmology"/>
+    <tag k="name" v="LASIK MD"/>
+    <tag k="phone" v="+1-519-772-2020"/>
+    <tag k="website" v="http://www.lasikmd.com/kitchener-waterloo"/>
+  </node>
+  <node id="2199609185" lat="43.4511352" lon="-80.4860817">
+    <tag k="addr:housenumber" v="97"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="healthcare" v="dentist"/>
+    <tag k="healthcare:speciality" v="cosmetic_dentistry;dentist"/>
+    <tag k="name" v="Dental Solutions"/>
+    <tag k="phone" v="+1-519-578-4500"/>
+  </node>
+  <node id="2199624692" lat="43.4511273" lon="-80.4871933"/>
+  <node id="2266363413" lat="43.4506192" lon="-80.4863473">
+    <tag k="amenity" v="post_box"/>
+    <tag k="check_date" v="2021-03-12"/>
+    <tag k="collection_times" v="Mo-Fr 17:00"/>
+  </node>
+  <node id="2462356294" lat="43.4520549" lon="-80.4864681"/>
+  <node id="2462356301" lat="43.4520104" lon="-80.4863947"/>
+  <node id="3824564172" lat="43.4505258" lon="-80.4850824"/>
+  <node id="4674706723" lat="43.4515670" lon="-80.4857801"/>
+  <node id="4674706727" lat="43.4511955" lon="-80.4857606"/>
+  <node id="5020109053" lat="43.4518724" lon="-80.4873619">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="5020109054" lat="43.4519905" lon="-80.4873977">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+  <node id="5020109056" lat="43.4512888" lon="-80.4859629">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="5020109057" lat="43.4512445" lon="-80.4862034">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="5020109058" lat="43.4514533" lon="-80.4859765">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="5020109059" lat="43.4514251" lon="-80.4862691">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="6397287885" lat="43.4506119" lon="-80.4862534">
+    <tag k="entrance" v="main"/>
+  </node>
+  <node id="6919046332" lat="43.4506697" lon="-80.4875339"/>
+  <node id="6919046333" lat="43.4510729" lon="-80.4872246"/>
+  <node id="6919046334" lat="43.4508587" lon="-80.4866946"/>
+  <node id="6919046335" lat="43.4504555" lon="-80.4870040"/>
+  <node id="7369497826" lat="43.4529258" lon="-80.4834461"/>
+  <node id="7369497837" lat="43.4527251" lon="-80.4855562"/>
+  <node id="7369497838" lat="43.4528665" lon="-80.4854428"/>
+  <node id="7369497847" lat="43.4523634" lon="-80.4844654"/>
+  <node id="7369497863" lat="43.4526432" lon="-80.4855563"/>
+  <node id="7369497865" lat="43.4520482" lon="-80.4855024"/>
+  <node id="7369497870" lat="43.4517195" lon="-80.4855043"/>
+  <node id="7369497871" lat="43.4517685" lon="-80.4856055"/>
+  <node id="7369497872" lat="43.4518946" lon="-80.4858655"/>
+  <node id="7369497873" lat="43.4520439" lon="-80.4857682"/>
+  <node id="7369497877" lat="43.4519723" lon="-80.4872781"/>
+  <node id="7369497887" lat="43.4520250" lon="-80.4872501"/>
+  <node id="7369497888" lat="43.4520671" lon="-80.4872123"/>
+  <node id="7369497889" lat="43.4521212" lon="-80.4871718"/>
+  <node id="7369497890" lat="43.4521781" lon="-80.4871356"/>
+  <node id="7369497891" lat="43.4522459" lon="-80.4871115"/>
+  <node id="7369497892" lat="43.4522874" lon="-80.4870880"/>
+  <node id="7369497893" lat="43.4523202" lon="-80.4870618"/>
+  <node id="7369497894" lat="43.4525619" lon="-80.4868690"/>
+  <node id="7369497895" lat="43.4526234" lon="-80.4868274"/>
+  <node id="7369497896" lat="43.4526712" lon="-80.4867802"/>
+  <node id="7369497897" lat="43.4531942" lon="-80.4863669"/>
+  <node id="7369497898" lat="43.4532037" lon="-80.4863431"/>
+  <node id="7369497903" lat="43.4528303" lon="-80.4854719"/>
+  <node id="7369497928" lat="43.4518956" lon="-80.4854583"/>
+  <node id="7369497929" lat="43.4519227" lon="-80.4854438"/>
+  <node id="7369497930" lat="43.4519483" lon="-80.4854417"/>
+  <node id="7369497931" lat="43.4519619" lon="-80.4854531"/>
+  <node id="7369497932" lat="43.4519739" lon="-80.4854666"/>
+  <node id="7369497933" lat="43.4520779" lon="-80.4856544"/>
+  <node id="7369497934" lat="43.4521178" lon="-80.4857519"/>
+  <node id="7369497935" lat="43.4521730" lon="-80.4858822"/>
+  <node id="7369497936" lat="43.4519485" lon="-80.4861978"/>
+  <node id="7369497937" lat="43.4519999" lon="-80.4861587"/>
+  <node id="7369497938" lat="43.4520301" lon="-80.4861442">
+    <tag k="barrier" v="entrance"/>
+  </node>
+  <node id="7369497939" lat="43.4521143" lon="-80.4860720"/>
+  <node id="7369497940" lat="43.4520372" lon="-80.4858788"/>
+  <node id="7369497943" lat="43.4519582" lon="-80.4871544"/>
+  <node id="7369497945" lat="43.4517123" lon="-80.4858313"/>
+  <node id="7369497946" lat="43.4520151" lon="-80.4863429"/>
+  <node id="7369497949" lat="43.4519422" lon="-80.4870137"/>
+  <node id="7369497950" lat="43.4521436" lon="-80.4869699"/>
+  <node id="7870672490" lat="43.4516782" lon="-80.4873242"/>
+  <node id="7870672491" lat="43.4516741" lon="-80.4873276"/>
+  <node id="7870672492" lat="43.4516363" lon="-80.4872408"/>
+  <node id="7870672493" lat="43.4516493" lon="-80.4872301"/>
+  <node id="7870672494" lat="43.4515932" lon="-80.4871010"/>
+  <node id="7870672495" lat="43.4516123" lon="-80.4870853"/>
+  <node id="7870672496" lat="43.4515953" lon="-80.4870463"/>
+  <node id="7870672497" lat="43.4515837" lon="-80.4870559"/>
+  <node id="7870672498" lat="43.4515492" lon="-80.4869767"/>
+  <node id="7870672499" lat="43.4515619" lon="-80.4869663"/>
+  <node id="7870672500" lat="43.4514211" lon="-80.4867366"/>
+  <node id="7870672501" lat="43.4514267" lon="-80.4867320"/>
+  <node id="7870672502" lat="43.4514598" lon="-80.4868254"/>
+  <node id="7870672503" lat="43.4515285" lon="-80.4869459"/>
+  <node id="7870672504" lat="43.4514718" lon="-80.4868155"/>
+  <node id="7870672505" lat="43.4515465" lon="-80.4869310"/>
+  <node id="7870672506" lat="43.4513677" lon="-80.4867130"/>
+  <node id="7870672507" lat="43.4513752" lon="-80.4867303"/>
+  <node id="7870672508" lat="43.4512691" lon="-80.4868179"/>
+  <node id="7870672509" lat="43.4512614" lon="-80.4868004"/>
+  <node id="7870672510" lat="43.4512472" lon="-80.4868790"/>
+  <node id="7870672511" lat="43.4512510" lon="-80.4868759"/>
+  <node id="7870672512" lat="43.4512883" lon="-80.4869615"/>
+  <node id="7870672513" lat="43.4513424" lon="-80.4871476"/>
+  <node id="7870672514" lat="43.4513298" lon="-80.4871580"/>
+  <node id="7870672515" lat="43.4513134" lon="-80.4871201"/>
+  <node id="7870672516" lat="43.4513333" lon="-80.4871037"/>
+  <node id="7870672517" lat="43.4512759" lon="-80.4869717"/>
+  <node id="7870672518" lat="43.4513656" lon="-80.4872338"/>
+  <node id="7870672519" lat="43.4513816" lon="-80.4872706"/>
+  <node id="7870672520" lat="43.4513985" lon="-80.4872567"/>
+  <node id="7870672521" lat="43.4514558" lon="-80.4873886"/>
+  <node id="7870672522" lat="43.4513761" lon="-80.4872251"/>
+  <node id="7870672523" lat="43.4514675" lon="-80.4873789"/>
+  <node id="7870672524" lat="43.4515062" lon="-80.4874679"/>
+  <node id="7870672525" lat="43.4515015" lon="-80.4874718"/>
+  <node id="7870672526" lat="43.4515597" lon="-80.4875512"/>
+  <node id="7870672527" lat="43.4515458" lon="-80.4875192"/>
+  <node id="7870672528" lat="43.4517055" lon="-80.4874309"/>
+  <node id="7870672529" lat="43.4516920" lon="-80.4874000"/>
+  <node id="7870672560" lat="43.4512221" lon="-80.4852194"/>
+  <node id="7870672561" lat="43.4512243" lon="-80.4849051"/>
+  <node id="7870672562" lat="43.4511907" lon="-80.4845938"/>
+  <node id="7870672563" lat="43.4509494" lon="-80.4847548"/>
+  <node id="7870672564" lat="43.4512014" lon="-80.4846987"/>
+  <node id="7870672565" lat="43.4509596" lon="-80.4848593"/>
+  <node id="7870672566" lat="43.4512126" lon="-80.4848034"/>
+  <node id="7870672567" lat="43.4512343" lon="-80.4853214"/>
+  <node id="7870672568" lat="43.4514864" lon="-80.4852660"/>
+  <node id="7870672569" lat="43.4512451" lon="-80.4854270"/>
+  <node id="7870672570" lat="43.4514970" lon="-80.4853709"/>
+  <node id="7870672571" lat="43.4512553" lon="-80.4855315"/>
+  <node id="7870672572" lat="43.4515083" lon="-80.4854756"/>
+  <node id="7870672573" lat="43.4509058" lon="-80.4847105"/>
+  <node id="7870672574" lat="43.4509168" lon="-80.4848157"/>
+  <node id="7870672575" lat="43.4512015" lon="-80.4853827"/>
+  <node id="7870672576" lat="43.4515297" lon="-80.4853100"/>
+  <node id="7870672577" lat="43.4512124" lon="-80.4854879"/>
+  <node id="7870672578" lat="43.4515406" lon="-80.4854152"/>
+  <node id="8120026779" lat="43.4519326" lon="-80.4872592"/>
+  <node id="8120026780" lat="43.4513785" lon="-80.4858645"/>
+  <node id="8120026782" lat="43.4513084" lon="-80.4857927"/>
+  <node id="8120026783" lat="43.4507256" lon="-80.4845071"/>
+  <node id="8120026784" lat="43.4507245" lon="-80.4844881"/>
+  <node id="8120037668" lat="43.4509060" lon="-80.4881749">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8120037674" lat="43.4508923" lon="-80.4881563"/>
+  <node id="8120037680" lat="43.4504282" lon="-80.4870185"/>
+  <node id="8120037681" lat="43.4504210" lon="-80.4869836">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8120037682" lat="43.4504052" lon="-80.4870677">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8120037684" lat="43.4503746" lon="-80.4867713"/>
+  <node id="8120037685" lat="43.4503956" lon="-80.4868651">
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+  </node>
+  <node id="8120037737" lat="43.4518022" lon="-80.4874326"/>
+  <node id="8120037738" lat="43.4512931" lon="-80.4862913"/>
+  <node id="8120037740" lat="43.4504709" lon="-80.4867019"/>
+  <node id="8120037741" lat="43.4505071" lon="-80.4866329"/>
+  <node id="8120037742" lat="43.4506889" lon="-80.4864875"/>
+  <node id="8120037743" lat="43.4507444" lon="-80.4864822"/>
+  <node id="8120037744" lat="43.4511881" lon="-80.4861206"/>
+  <node id="8120037755" lat="43.4516290" lon="-80.4869637"/>
+  <node id="8120037756" lat="43.4514525" lon="-80.4865564"/>
+  <node id="8120037757" lat="43.4513511" lon="-80.4863340"/>
+  <node id="8120037758" lat="43.4513346" lon="-80.4863063"/>
+  <node id="8120037759" lat="43.4512012" lon="-80.4860154"/>
+  <node id="8120037760" lat="43.4510103" lon="-80.4856040"/>
+  <node id="8120037761" lat="43.4509827" lon="-80.4855958"/>
+  <node id="8120037762" lat="43.4507157" lon="-80.4849979"/>
+  <node id="8120037763" lat="43.4507008" lon="-80.4849380"/>
+  <node id="8120037764" lat="43.4505554" lon="-80.4846260"/>
+  <node id="8145019507" lat="43.4517080" lon="-80.4862435">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="bollard"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="8145019508" lat="43.4513115" lon="-80.4856883">
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="capacity" v="13"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="8145019509" lat="43.4510108" lon="-80.4861858">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="26"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="8145051274" lat="43.4513182" lon="-80.4862940"/>
+  <node id="8145051275" lat="43.4512041" lon="-80.4860818"/>
+  <node id="8145155336" lat="43.4518276" lon="-80.4850858"/>
+  <node id="8145155338" lat="43.4517097" lon="-80.4853360"/>
+  <node id="8145155339" lat="43.4516472" lon="-80.4853993"/>
+  <node id="8145155340" lat="43.4514571" lon="-80.4858046"/>
+  <node id="8145155341" lat="43.4514212" lon="-80.4858530"/>
+  <node id="8512201589" lat="43.4514427" lon="-80.4857406">
+    <tag k="amenity" v="post_box"/>
+    <tag k="collection_times" v="Mo-Fr 17:00"/>
+    <tag k="operator" v="Canada Post"/>
+    <tag k="operator:wikidata" v="Q1032001"/>
+    <tag k="operator:wikipedia" v="en:Canada Post"/>
+  </node>
+  <node id="8534508529" lat="43.4529676" lon="-80.4833895">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8534508541" lat="43.4532135" lon="-80.4863388">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="8534508543" lat="43.4518106" lon="-80.4874463">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8534508545" lat="43.4518134" lon="-80.4874167">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8534508546" lat="43.4519546" lon="-80.4872984">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8534508547" lat="43.4519421" lon="-80.4872973">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8534508548" lat="43.4520152" lon="-80.4874659">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8593029545" lat="43.4511185" lon="-80.4851142"/>
+  <node id="8593029546" lat="43.4513304" lon="-80.4850129"/>
+  <node id="8593040671" lat="43.4503052" lon="-80.4851727"/>
+  <node id="8593040674" lat="43.4510321" lon="-80.4862477"/>
+  <node id="8593040675" lat="43.4501581" lon="-80.4862308"/>
+  <node id="8921130632" lat="43.4514889" lon="-80.4862131">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130633" lat="43.4513634" lon="-80.4863232">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130634" lat="43.4513513" lon="-80.4858930">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130635" lat="43.4514057" lon="-80.4858960">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130636" lat="43.4512225" lon="-80.4860372">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130637" lat="43.4512088" lon="-80.4861400">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130638" lat="43.4512855" lon="-80.4862763">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130639" lat="43.4515104" lon="-80.4860729">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921130640" lat="43.4512072" lon="-80.4860459"/>
+  <node id="8921180180" lat="43.4507159" lon="-80.4844709">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8921180186" lat="43.4505456" lon="-80.4846128">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8923701130" lat="43.4503597" lon="-80.4867788">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="8923701132" lat="43.4504344" lon="-80.4870442"/>
+  <node id="8923701133" lat="43.4504453" lon="-80.4869877"/>
+  <node id="9442789574" lat="43.4517396" lon="-80.4870374"/>
+  <node id="9442789575" lat="43.4510473" lon="-80.4854396"/>
+  <node id="9442789576" lat="43.4508496" lon="-80.4850112"/>
+  <node id="9706115092" lat="43.4506179" lon="-80.4847600"/>
+  <node id="9706115103" lat="43.4506612" lon="-80.4848531">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="9706115110" lat="43.4504245" lon="-80.4864538"/>
+  <node id="9706115111" lat="43.4503185" lon="-80.4863999"/>
+  <node id="9706186320" lat="43.4505496" lon="-80.4863129"/>
+  <node id="9706186321" lat="43.4505299" lon="-80.4863317"/>
+  <node id="9706186323" lat="43.4502205" lon="-80.4863867"/>
+  <node id="9706186325" lat="43.4502888" lon="-80.4861245"/>
+  <node id="9706186326" lat="43.4507909" lon="-80.4864443"/>
+  <node id="9706186327" lat="43.4507553" lon="-80.4863670"/>
+  <node id="9706186328" lat="43.4506338" lon="-80.4864580"/>
+  <node id="9706186329" lat="43.4504757" lon="-80.4860789"/>
+  <node id="9706186330" lat="43.4505665" lon="-80.4862967"/>
+  <node id="9706186332" lat="43.4506119" lon="-80.4865491"/>
+  <node id="9706186333" lat="43.4505096" lon="-80.4861602"/>
+  <node id="9706186334" lat="43.4507079" lon="-80.4849667"/>
+  <node id="9706186335" lat="43.4505345" lon="-80.4851021"/>
+  <node id="9706186336" lat="43.4508267" lon="-80.4857674"/>
+  <node id="9706186337" lat="43.4510512" lon="-80.4862321"/>
+  <node id="9706186338" lat="43.4509235" lon="-80.4859409"/>
+  <node id="9706186340" lat="43.4500789" lon="-80.4855125"/>
+  <node id="9721705068" lat="43.4509859" lon="-80.4860832"/>
+  <node id="9721728403" lat="43.4509683" lon="-80.4860431"/>
+  <node id="10017195027" lat="43.4518392" lon="-80.4850687">
+    <tag k="barrier" v="kerb"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+  <node id="10925118752" lat="43.4507588" lon="-80.4867585">
+    <tag k="board_type" v="history"/>
+    <tag k="information" v="board"/>
+    <tag k="name" v="Trinity United Church"/>
+    <tag k="tourism" v="information"/>
+  </node>
+  <node id="11167576784" lat="43.4514507" lon="-80.4862467"/>
+  <way id="41183908">
+    <nd ref="298584875"/>
+    <nd ref="5020109057"/>
+    <nd ref="8120037685"/>
+    <nd ref="298584876"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Frederick Street"/>
+    <tag k="ref" v="6"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="41183912">
+    <nd ref="421163789"/>
+    <nd ref="1534177721"/>
+    <nd ref="7369497870"/>
+    <nd ref="2155077234"/>
+    <nd ref="4674706723"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="Frederick Street"/>
+    <tag k="ref" v="6"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="67792894">
+    <nd ref="818544471"/>
+    <nd ref="818544730"/>
+    <nd ref="818544968"/>
+    <nd ref="7870672562"/>
+    <nd ref="818544411"/>
+    <nd ref="7870672564"/>
+    <nd ref="818544659"/>
+    <nd ref="7870672566"/>
+    <nd ref="7870672561"/>
+    <nd ref="8593029546"/>
+    <nd ref="818545140"/>
+    <nd ref="7870672568"/>
+    <nd ref="7870672576"/>
+    <nd ref="7870672570"/>
+    <nd ref="7870672578"/>
+    <nd ref="7870672572"/>
+    <nd ref="818544586"/>
+    <nd ref="818544848"/>
+    <nd ref="818545079"/>
+    <nd ref="7870672571"/>
+    <nd ref="7870672577"/>
+    <nd ref="7870672569"/>
+    <nd ref="7870672575"/>
+    <nd ref="7870672567"/>
+    <nd ref="818544521"/>
+    <nd ref="7870672560"/>
+    <nd ref="8593029545"/>
+    <nd ref="818544612"/>
+    <nd ref="7870672565"/>
+    <nd ref="7870672574"/>
+    <nd ref="7870672563"/>
+    <nd ref="7870672573"/>
+    <nd ref="818544872"/>
+    <nd ref="818544471"/>
+    <tag k="building" v="office"/>
+    <tag k="building:colour" v="red"/>
+    <tag k="building:levels" v="11"/>
+    <tag k="building:material" v="brick"/>
+    <tag k="name" v="Galleria"/>
+    <tag k="source" v="CanVec 6.0 - NRCan"/>
+  </way>
+  <way id="92888296">
+    <nd ref="1077042830"/>
+    <nd ref="3824564172"/>
+    <nd ref="9706186335"/>
+    <nd ref="9706186336"/>
+    <nd ref="1077044023"/>
+    <nd ref="1077042795"/>
+    <nd ref="6397287885"/>
+    <nd ref="2139165855"/>
+    <nd ref="9706186325"/>
+    <nd ref="1077042820"/>
+    <nd ref="2143394095"/>
+    <nd ref="2143394094"/>
+    <nd ref="9706186340"/>
+    <nd ref="1077042825"/>
+    <nd ref="8593040671"/>
+    <nd ref="1077042830"/>
+    <tag k="addr:housenumber" v="85"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="amenity" v="courthouse"/>
+    <tag k="building" v="public"/>
+    <tag k="building:levels" v="7"/>
+    <tag k="name" v="Waterloo Region Courthouse"/>
+    <tag k="wikimedia_commons" v="Category:Waterloo Region Courthouse"/>
+  </way>
+  <way id="138176692">
+    <nd ref="1514647966"/>
+    <nd ref="7870672529"/>
+    <nd ref="7870672528"/>
+    <nd ref="1543807819"/>
+    <nd ref="7870672526"/>
+    <nd ref="7870672527"/>
+    <nd ref="1514647964"/>
+    <nd ref="7870672525"/>
+    <nd ref="7870672524"/>
+    <nd ref="7870672523"/>
+    <nd ref="7870672521"/>
+    <nd ref="7870672520"/>
+    <nd ref="7870672519"/>
+    <nd ref="7870672518"/>
+    <nd ref="7870672522"/>
+    <nd ref="7870672513"/>
+    <nd ref="7870672514"/>
+    <nd ref="7870672515"/>
+    <nd ref="7870672516"/>
+    <nd ref="7870672517"/>
+    <nd ref="7870672512"/>
+    <nd ref="7870672511"/>
+    <nd ref="7870672510"/>
+    <nd ref="1514647961"/>
+    <nd ref="7870672509"/>
+    <nd ref="7870672508"/>
+    <nd ref="7870672507"/>
+    <nd ref="7870672506"/>
+    <nd ref="1514647962"/>
+    <nd ref="7870672501"/>
+    <nd ref="7870672500"/>
+    <nd ref="7870672502"/>
+    <nd ref="7870672504"/>
+    <nd ref="7870672503"/>
+    <nd ref="7870672505"/>
+    <nd ref="7870672499"/>
+    <nd ref="7870672498"/>
+    <nd ref="7870672497"/>
+    <nd ref="7870672496"/>
+    <nd ref="7870672495"/>
+    <nd ref="7870672494"/>
+    <nd ref="7870672493"/>
+    <nd ref="7870672492"/>
+    <nd ref="7870672491"/>
+    <nd ref="7870672490"/>
+    <nd ref="1514647966"/>
+    <tag k="building" v="apartments"/>
+    <tag k="building:colour" v="beige"/>
+    <tag k="building:levels" v="18"/>
+    <tag k="name" v="The Regency"/>
+  </way>
+  <way id="138738949">
+    <nd ref="1521323613"/>
+    <nd ref="1521323610"/>
+    <nd ref="1521323616"/>
+    <nd ref="1521323612"/>
+    <nd ref="1521323613"/>
+    <tag k="addr:housenumber" v="97"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="building" v="office"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="roof:levels" v="1"/>
+  </way>
+  <way id="138740587">
+    <nd ref="2199624692"/>
+    <nd ref="1812086857"/>
+    <nd ref="1812086858"/>
+    <nd ref="1521343355"/>
+    <nd ref="1521343350"/>
+    <nd ref="1521343347"/>
+    <nd ref="2199624692"/>
+    <tag k="addr:housenumber" v="84"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="building" v="apartments"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="website" v="http://www.ywcakw.on.ca/women_emergency_shelter.php"/>
+  </way>
+  <way id="140010562">
+    <nd ref="2155077234"/>
+    <nd ref="1768678504"/>
+    <nd ref="7369497945"/>
+    <nd ref="1534177695"/>
+    <nd ref="7369497936"/>
+    <nd ref="1534177666"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="parking_aisle"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="140010563">
+    <nd ref="1534177721"/>
+    <nd ref="1768678503"/>
+    <nd ref="1534177710"/>
+    <nd ref="7369497865"/>
+    <nd ref="1534177700"/>
+    <nd ref="1534177702"/>
+    <nd ref="1534177697"/>
+    <nd ref="1534177655"/>
+    <nd ref="7369497863"/>
+    <nd ref="7369497837"/>
+    <nd ref="7369497903"/>
+    <nd ref="7369497838"/>
+    <tag k="highway" v="service"/>
+    <tag k="motor_vehicle" v="private"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="service" v="parking_aisle"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="140010570">
+    <nd ref="1534177680"/>
+    <nd ref="1534187935"/>
+    <nd ref="1534177685"/>
+    <nd ref="1534177658"/>
+    <nd ref="1534177696"/>
+    <nd ref="1534177680"/>
+    <tag k="addr:housenumber" v="122"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="architect" v="Dunker Construction"/>
+    <tag k="building" v="civic"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="name" v="Waterloo County Registry Building"/>
+    <tag k="note" v="historical building; theatre inside"/>
+    <tag k="start_date" v="1939"/>
+    <tag k="wikidata" v="Q110374281"/>
+    <tag k="wikimedia_commons" v="Category:Registry Theatre"/>
+  </way>
+  <way id="146433566">
+    <nd ref="1534187928"/>
+    <nd ref="1534187935"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="146433568">
+    <nd ref="8534508529"/>
+    <nd ref="2049190671"/>
+    <nd ref="7369497826"/>
+    <nd ref="1534189765"/>
+    <nd ref="1768678502"/>
+    <nd ref="1534187910"/>
+    <nd ref="7369497847"/>
+    <nd ref="2049190669"/>
+    <nd ref="1534187921"/>
+    <nd ref="1768678503"/>
+    <nd ref="1534187928"/>
+    <nd ref="7369497871"/>
+    <nd ref="1768678504"/>
+    <nd ref="1534187933"/>
+    <nd ref="8921130632"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="157475766">
+    <nd ref="2060899620"/>
+    <nd ref="1696926661"/>
+    <nd ref="1696926658"/>
+    <nd ref="1696926656"/>
+    <nd ref="1696926669"/>
+    <nd ref="1696926670"/>
+    <nd ref="1696926655"/>
+    <nd ref="1696926665"/>
+    <nd ref="1696926643"/>
+    <nd ref="1696926654"/>
+    <nd ref="1696926645"/>
+    <nd ref="1696926675"/>
+    <nd ref="2060899620"/>
+    <tag k="landuse" v="commercial"/>
+  </way>
+  <way id="157475769">
+    <nd ref="1696926679"/>
+    <nd ref="1696926642"/>
+    <nd ref="1696926667"/>
+    <nd ref="1696926639"/>
+    <nd ref="1696926650"/>
+    <nd ref="1696926676"/>
+    <nd ref="1696926672"/>
+    <nd ref="1696926678"/>
+    <nd ref="1696926679"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="note" v="short-term visitor parking"/>
+    <tag k="parking" v="surface"/>
+    <tag k="source" v="Bing"/>
+  </way>
+  <way id="195572599">
+    <nd ref="2027435528"/>
+    <nd ref="7369497938"/>
+    <nd ref="2059923234"/>
+    <nd ref="2027435530"/>
+    <nd ref="2027435521"/>
+    <tag k="barrier" v="wall"/>
+    <tag k="height" v="4.27"/>
+    <tag k="material" v="stone"/>
+    <tag k="wall" v="stone"/>
+  </way>
+  <way id="205549129">
+    <nd ref="2155077238"/>
+    <nd ref="2155077226"/>
+    <nd ref="2155077246"/>
+    <nd ref="2155077244"/>
+    <nd ref="2155077238"/>
+    <tag k="addr:housenumber" v="19"/>
+    <tag k="addr:street" v="Weber Street East"/>
+    <tag k="building" v="detached"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="roof:levels" v="1"/>
+  </way>
+  <way id="205549130">
+    <nd ref="2155077232"/>
+    <nd ref="2155077239"/>
+    <nd ref="2155077248"/>
+    <nd ref="2155077235"/>
+    <nd ref="2155077228"/>
+    <nd ref="2155077225"/>
+    <nd ref="2155077229"/>
+    <nd ref="2155077241"/>
+    <nd ref="2155077236"/>
+    <nd ref="2155077232"/>
+    <tag k="leaf_type" v="mixed"/>
+    <tag k="natural" v="wood"/>
+  </way>
+  <way id="205549131">
+    <nd ref="2155077250"/>
+    <nd ref="2155077237"/>
+    <nd ref="2155077249"/>
+    <nd ref="2155077247"/>
+    <nd ref="2155077250"/>
+    <tag k="addr:housenumber" v="96"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="building" v="retail"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="website" v="https://www.sterling.ca/"/>
+  </way>
+  <way id="205549153">
+    <nd ref="2155079550"/>
+    <nd ref="7369497945"/>
+    <nd ref="2155079535"/>
+    <nd ref="2155079547"/>
+    <nd ref="7369497937"/>
+    <nd ref="2155079539"/>
+    <nd ref="7369497946"/>
+    <nd ref="2155079543"/>
+    <nd ref="2155079553"/>
+    <nd ref="2155079550"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="parking" v="surface"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="205549245">
+    <nd ref="1534187918"/>
+    <nd ref="2155084778"/>
+    <nd ref="2155084775"/>
+    <nd ref="7369497949"/>
+    <nd ref="7369497943"/>
+    <nd ref="7369497877"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="224109042">
+    <nd ref="298584875"/>
+    <nd ref="5020109059"/>
+    <nd ref="9442789574"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="5"/>
+    <tag k="lanes:backward" v="3"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Weber Street East"/>
+    <tag k="ref" v="8"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes:backward" v="left||"/>
+  </way>
+  <way id="238389803">
+    <nd ref="545312665"/>
+    <nd ref="545312674"/>
+    <nd ref="545312664"/>
+    <nd ref="545312671"/>
+    <nd ref="545312672"/>
+    <nd ref="2462356294"/>
+    <nd ref="2462356301"/>
+    <nd ref="545312667"/>
+    <nd ref="545312665"/>
+    <tag k="addr:city" v="Kitchener"/>
+    <tag k="addr:housenumber" v="20"/>
+    <tag k="addr:street" v="Weber Street East"/>
+    <tag k="building" v="civic"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="name" v="Former County Court House"/>
+    <tag k="operator" v="Region of Waterloo"/>
+  </way>
+  <way id="473338925">
+    <nd ref="4674706723"/>
+    <nd ref="1534177708"/>
+    <nd ref="5020109058"/>
+    <nd ref="298584875"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed:type" v="CA:urban"/>
+    <tag k="name" v="Frederick Street"/>
+    <tag k="ref" v="6"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="473338926">
+    <nd ref="4674706727"/>
+    <nd ref="5020109056"/>
+    <nd ref="298584875"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="5"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="3"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Weber Street East"/>
+    <tag k="ref" v="8"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes:forward" v="left||"/>
+  </way>
+  <way id="738960581">
+    <nd ref="6919046332"/>
+    <nd ref="6919046333"/>
+    <nd ref="6919046334"/>
+    <nd ref="6919046335"/>
+    <nd ref="6919046332"/>
+    <tag k="addr:housenumber" v="60"/>
+    <tag k="addr:street" v="Frederick Street"/>
+    <tag k="building" v="apartments"/>
+    <tag k="building:levels" v="39"/>
+    <tag k="name" v="Duke Tower"/>
+  </way>
+  <way id="788225153">
+    <nd ref="7369497870"/>
+    <nd ref="7369497871"/>
+    <nd ref="7369497872"/>
+    <nd ref="7369497873"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="parking_aisle"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="788225155">
+    <nd ref="545312674"/>
+    <nd ref="2155084775"/>
+    <nd ref="1534187931"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="788225157">
+    <nd ref="8534508547"/>
+    <nd ref="1534187916"/>
+    <nd ref="7369497877"/>
+    <nd ref="7369497887"/>
+    <nd ref="7369497888"/>
+    <nd ref="7369497889"/>
+    <nd ref="7369497890"/>
+    <nd ref="7369497891"/>
+    <nd ref="7369497892"/>
+    <nd ref="7369497893"/>
+    <nd ref="7369497894"/>
+    <nd ref="7369497895"/>
+    <nd ref="7369497896"/>
+    <nd ref="7369497897"/>
+    <nd ref="7369497898"/>
+    <nd ref="8534508541"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="788225166">
+    <nd ref="1534187928"/>
+    <nd ref="7369497928"/>
+    <nd ref="7369497929"/>
+    <nd ref="7369497930"/>
+    <nd ref="7369497931"/>
+    <nd ref="7369497932"/>
+    <nd ref="7369497933"/>
+    <nd ref="7369497934"/>
+    <nd ref="7369497935"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="788225167">
+    <nd ref="7369497936"/>
+    <nd ref="7369497937"/>
+    <nd ref="7369497938"/>
+    <nd ref="7369497939"/>
+    <nd ref="7369497940"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="parking_aisle"/>
+  </way>
+  <way id="788225169">
+    <nd ref="7369497943"/>
+    <nd ref="7369497888"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="788225171">
+    <nd ref="7369497949"/>
+    <nd ref="7369497950"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784636">
+    <nd ref="8534508548"/>
+    <nd ref="5020109054"/>
+    <nd ref="8534508546"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784637">
+    <nd ref="8921130639"/>
+    <nd ref="1534187933"/>
+    <nd ref="1534187918"/>
+    <nd ref="1534187931"/>
+    <nd ref="8120026779"/>
+    <nd ref="1534187916"/>
+    <nd ref="8534508546"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784638">
+    <nd ref="8921130639"/>
+    <nd ref="5020109058"/>
+    <nd ref="8921130635"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784640">
+    <nd ref="8921130635"/>
+    <nd ref="8120026780"/>
+    <nd ref="8120026782"/>
+    <nd ref="8120026783"/>
+    <nd ref="8120026784"/>
+    <nd ref="8921180180"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784717">
+    <nd ref="8120037668"/>
+    <nd ref="8120037674"/>
+    <nd ref="8923701132"/>
+    <nd ref="8120037680"/>
+    <nd ref="8120037681"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784735">
+    <nd ref="8120037682"/>
+    <nd ref="8120037680"/>
+    <nd ref="8923701133"/>
+    <nd ref="8120037738"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784736">
+    <nd ref="8923701130"/>
+    <nd ref="8120037684"/>
+    <nd ref="8120037740"/>
+    <nd ref="8120037741"/>
+    <nd ref="9706186332"/>
+    <nd ref="8120037742"/>
+    <nd ref="8120037743"/>
+    <nd ref="9706186326"/>
+    <nd ref="8593040674"/>
+    <nd ref="9706186337"/>
+    <nd ref="8120037744"/>
+    <nd ref="8145051275"/>
+    <nd ref="8921130636"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="871784742">
+    <nd ref="8534508545"/>
+    <nd ref="5020109053"/>
+    <nd ref="8534508547"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784743">
+    <nd ref="8534508543"/>
+    <nd ref="8120037737"/>
+    <nd ref="8120037755"/>
+    <nd ref="8120037756"/>
+    <nd ref="8120037757"/>
+    <nd ref="8120037758"/>
+    <nd ref="8145051274"/>
+    <nd ref="8120037738"/>
+    <nd ref="8921130638"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="871784744">
+    <nd ref="8921130633"/>
+    <nd ref="5020109059"/>
+    <nd ref="11167576784"/>
+    <nd ref="8921130632"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="lines"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784745">
+    <nd ref="8921130638"/>
+    <nd ref="5020109057"/>
+    <nd ref="8921130637"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784746">
+    <nd ref="8921130636"/>
+    <nd ref="5020109056"/>
+    <nd ref="8921130634"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="871784747">
+    <nd ref="8921130637"/>
+    <nd ref="8145051275"/>
+    <nd ref="8921130640"/>
+    <nd ref="8120037759"/>
+    <nd ref="8120037760"/>
+    <nd ref="8120037761"/>
+    <nd ref="8120037762"/>
+    <nd ref="9706186334"/>
+    <nd ref="8120037763"/>
+    <nd ref="9706115103"/>
+    <nd ref="9706115092"/>
+    <nd ref="8120037764"/>
+    <nd ref="8921180186"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="875026701">
+    <nd ref="10017195027"/>
+    <nd ref="8145155336"/>
+    <nd ref="8145155338"/>
+    <nd ref="8145155339"/>
+    <nd ref="8145155340"/>
+    <nd ref="8145155341"/>
+    <nd ref="8120026780"/>
+    <nd ref="8921130634"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="925949128">
+    <nd ref="1077044023"/>
+    <nd ref="8593040674"/>
+    <nd ref="9706186326"/>
+    <nd ref="8120037743"/>
+    <nd ref="8120037742"/>
+    <nd ref="9706186332"/>
+    <nd ref="8120037741"/>
+    <nd ref="8120037740"/>
+    <nd ref="8120037684"/>
+    <nd ref="9706186323"/>
+    <nd ref="8593040675"/>
+    <nd ref="1077042820"/>
+    <nd ref="9706186325"/>
+    <nd ref="2139165855"/>
+    <nd ref="1077042795"/>
+    <nd ref="1077044023"/>
+    <tag k="name" v="Civic Plaza"/>
+    <tag k="place" v="square"/>
+  </way>
+  <way id="964468438">
+    <nd ref="8120037757"/>
+    <nd ref="8921130633"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="1024002008">
+    <nd ref="9442789574"/>
+    <nd ref="5020109053"/>
+    <nd ref="297024077"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Weber Street East"/>
+    <tag k="ref" v="8"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <way id="1024002009">
+    <nd ref="9442789575"/>
+    <nd ref="4674706727"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="5"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="lanes:forward" v="3"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Weber Street East"/>
+    <tag k="ref" v="8"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes:forward" v="left||"/>
+  </way>
+  <way id="1024002010">
+    <nd ref="9442789576"/>
+    <nd ref="9442789575"/>
+    <tag k="hgv" v="no"/>
+    <tag k="hgv:conditional" v="yes @ (Mo-Fr 07:00-19:00)"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lanes:backward" v="3"/>
+    <tag k="lanes:forward" v="3"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Weber Street East"/>
+    <tag k="ref" v="8"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes:backward" v="left||"/>
+    <tag k="turn:lanes:forward" v="left||"/>
+  </way>
+  <way id="1056324235">
+    <nd ref="9706186320"/>
+    <nd ref="9706186330"/>
+    <nd ref="6397287885"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324236">
+    <nd ref="9706186332"/>
+    <nd ref="9706115110"/>
+    <nd ref="9706115111"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324239">
+    <nd ref="9706115110"/>
+    <nd ref="9706186321"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324240">
+    <nd ref="9706186321"/>
+    <nd ref="9706186320"/>
+    <tag k="handrail" v="yes"/>
+    <tag k="highway" v="steps"/>
+    <tag k="incline" v="up"/>
+    <tag k="ramp" v="no"/>
+    <tag k="step_count" v="8"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="tactile_paving" v="no"/>
+  </way>
+  <way id="1056324245">
+    <nd ref="9706186326"/>
+    <nd ref="9706186327"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324246">
+    <nd ref="9706186327"/>
+    <nd ref="9706186328"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324247">
+    <nd ref="9706186328"/>
+    <nd ref="9706186330"/>
+    <nd ref="9706186333"/>
+    <nd ref="9706186329"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324249">
+    <nd ref="9706186328"/>
+    <nd ref="9706186332"/>
+    <tag k="handrail" v="yes"/>
+    <tag k="highway" v="steps"/>
+    <tag k="incline" v="down"/>
+    <tag k="ramp" v="no"/>
+    <tag k="step_count" v="5"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="tactile_paving" v="no"/>
+  </way>
+  <way id="1056324251">
+    <nd ref="8120037760"/>
+    <nd ref="9706186336"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1056324252">
+    <nd ref="9706186337"/>
+    <nd ref="9721705068"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="1058023686">
+    <nd ref="9721705068"/>
+    <nd ref="9721728403"/>
+    <tag k="handrail" v="yes"/>
+    <tag k="highway" v="steps"/>
+    <tag k="incline" v="down"/>
+    <tag k="ramp" v="no"/>
+    <tag k="step_count" v="5"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="1058023687">
+    <nd ref="9721728403"/>
+    <nd ref="9706186338"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <relation id="6381793">
+    <member type="way" ref="428946045" role="from"/>
+    <member type="node" ref="297024077" role="via"/>
+    <member type="way" ref="428946041" role="to"/>
+    <tag k="restriction:conditional" v="no_left_turn @ (Mo-Fr 8:00-18:00)"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="6959858">
+    <member type="way" ref="473338926" role="from"/>
+    <member type="node" ref="298584875" role="via"/>
+    <member type="way" ref="473338925" role="to"/>
+    <tag k="restriction" v="no_right_turn"/>
+    <tag k="type" v="restriction"/>
+  </relation>
+  <relation id="13284590">
+    <member type="way" ref="67792843" role="outer"/>
+    <member type="way" ref="988972774" role="inner"/>
+    <tag k="addr:city" v="Kitchener"/>
+    <tag k="addr:housenumber" v="49"/>
+    <tag k="addr:street" v="Queen Street North"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="lutheran"/>
+    <tag k="name" v="Saint Peter's Lutheran Church"/>
+    <tag k="official_name" v="St. Peter's Lutheran Church"/>
+    <tag k="phone" v="+1-519-745-4705"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+
+</osm>

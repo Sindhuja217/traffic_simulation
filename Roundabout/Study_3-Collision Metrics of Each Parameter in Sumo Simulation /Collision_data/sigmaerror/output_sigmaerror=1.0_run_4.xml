@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-16 23:45:44 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE 699/(No subject)/new.net.xml"/>
+        <route-files value="simulation_outputs/modified_EGO_VEHTYPE_sigmaerror=1.0.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="simulation_outputs/output_sigmaerror=1.0_run_4.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="57272"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="226.00" type="collision" lane="-E32_0" pos="45.49" collider="f_1_ego.14" victim="f_1_ego.13" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="7.83" victimSpeed="0.00"/>
+    <collision time="328.00" type="collision" lane="E27_1" pos="57.04" collider="f_0_ego.14" victim="f_0_ego.13" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="2.69" victimSpeed="0.00"/>
+    <collision time="798.00" type="collision" lane="E28_1" pos="37.81" collider="f_1_ego.19" victim="f_1_ego.18" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="4.03" victimSpeed="0.21"/>
+    <collision time="1050.00" type="collision" lane="E26_0" pos="61.26" collider="f_1_ego.12" victim="f_1_default.14" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="7.83" victimSpeed="2.02"/>
+    <collision time="2663.00" type="junction" lane=":J3_2_0" pos="7.83" collider="f_1_ego.25" victim="f_1_default.23" colliderType="EGO_VEHTYPE" victimType="DEFAULT_VEHTYPE" colliderSpeed="12.28" victimSpeed="5.87"/>
+    <collision time="3419.00" type="collision" lane="E31_0" pos="11.00" collider="f_0_ego.8" victim="f_0_ego.10" colliderType="EGO_VEHTYPE" victimType="EGO_VEHTYPE" colliderSpeed="12.57" victimSpeed="0.15"/>
+</collisions>

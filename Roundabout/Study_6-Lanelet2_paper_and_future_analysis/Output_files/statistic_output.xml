@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-01 12:54:01 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/new.net.xml"/>
+        <route-files value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/new.rou1.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/fcd_output2.xml"/>
+        <collision-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/collisionOutput2.xml"/>
+        <lanedata-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/lane_output2.xml"/>
+        <statistic-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-30-10-23/statistic_output2.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2500"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="30"/>
+    </processing>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="1698857641.26" clockEnd="1698857933.01" clockDuration="291.75" traciDuration="2.85" realTimeFactor="8.57" vehicleUpdatesPerSecond="219.13" personUpdatesPerSecond="0.00" begin="0.00" end="2500.00" duration="2500.00"/>
+    <vehicles loaded="1000" inserted="1000" running="0" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="48" emergencyStops="0" emergencyBraking="13"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+</statistics>

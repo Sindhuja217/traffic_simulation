@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-08 17:04:48 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/new.net.xml"/>
+        <route-files value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/new.rou1.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/fcd_output.xml"/>
+        <full-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/FinalOutput.xml"/>
+        <summary-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/summary_output.xml"/>
+        <lanechange-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/lanechange_output.xml"/>
+        <collision-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/collisionOutput.xml"/>
+        <statistic-output value="/Users/sindhujach/Desktop/ECE_699/Traffic_simulation/Weeklytask-5thnov/statistics_output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <collision.action value="remove"/>
+        <max-num-vehicles value="50"/>
+    </processing>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="1699481088.66" clockEnd="1699481233.71" clockDuration="145.05" traciDuration="34.64" realTimeFactor="6.89" vehicleUpdatesPerSecond="3433.88" personUpdatesPerSecond="0.00" begin="0.00" end="1000.00" duration="1000.00"/>
+    <vehicles loaded="1000" inserted="671" running="50" waiting="329"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="83" emergencyStops="8" emergencyBraking="802"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+</statistics>

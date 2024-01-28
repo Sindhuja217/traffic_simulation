@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="default" maxSpeed="20" accel="2" decel="4" emergencyDecel="6" minGap="1" tau="1.0" length="5" sigma="0.5" color="0.5,0.5,0.5"/>
+    <vType id="aggressive" maxSpeed="35" accel="5" decel="5" emergencyDecel="8" minGap="4" tau="0.1" collisionMinGapFactor="0.5" impatience="0.0" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedgain="1.0" lcPushy="0.0" lcImpatience="0.00" jmIgnoreFoeProb="0.0" carFollowModel="EIDM" sigmagap="0.10" sigmaerror="0.04" color="1.0,0.0,0.0"/>
+    <vType id="speeder" maxSpeed="40" accel="4" decel="5" emergencyDecel="7" minGap="5" tau="1.75" collisionMinGapFactor="0.0" impatience="1" lcStrategic="1.0" lcCooperative="0.0" lcSppedGain="2.0" lcKeepRight="0.0" color="1.0,1.0,0.0"/>
+    <vType id="distracted" maxSpeed="20" accel="2" decel="2" minGap="3" tau="2.0" sigmaerror="0.1" color="0.7,0.7,0.7"/>
+    <vType id="inexperienced" maxSpeed="20" accel="1.5" decel="1.5" minGap="4" tau="2.5" color="0.6,0.3,1.0"/>
+    <vType id="tailgater" maxSpeed="25" accel="2" decel="2" emergencyDecel="6" minGap="1" tau="0.25" collisionMinGapFactor="0.0" impatience="1" lcStrategic="1.0" lcCooperative="0.0" lcSppedGain="1.5" lcKeepRight="0.0" color="0.0,1.0,0.0"/>
+    <vType id="xpassive" maxSpeed="20" accel="1" decel="2" emergencyDecel="3" minGap="6" tau="1.75" collisionMinGapFactor="0.0" color="0.0,0.0,1.0"/>
+    
+
+    <!-- Flows for Default vehicles -->
+    <flow id="flow_default_N" type="default" begin="0" end="200" number="50" from="-E30" to="E31" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_E" type="default" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_S" type="default" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_default_W" type="default" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Aggressive vehicles -->
+    <flow id="flow_aggressive_N" type="aggressive" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_aggressive_E" type="aggressive" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_aggressive_W" type="aggressive" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_speeder_N" type="speeder" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_speeder_S" type="speeder" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_speeder_W" type="speeder" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+    
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_distracted_E" type="distracted" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_distracted_S" type="distracted" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+    <flow id="flow_distracted_W" type="distracted" begin="0" end="200" number="50" from="-E29" to="E31" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Speeder vehicles -->
+    <flow id="flow_inexperienced_N" type="inexperienced" begin="0" end="200" number="50" from="-E30" to="E32" departLane="free" departSpeed="max"/>
+    <flow id="flow_inexperienced_E" type="inexperienced" begin="0" end="200" number="50" from="-E31" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_inexperienced_S" type="inexperienced" begin="0" end="200" number="50" from="-E32" to="E30" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Tailgater vehicles -->
+    <flow id="flow_tailgater_N" type="tailgater" begin="0" end="200" number="50" from="-E30" to="E31" departLane="free" departSpeed="max"/>
+    <flow id="flow_tailgater_E" type="tailgater" begin="0" end="200" number="50" from="-E31" to="E32" departLane="free" departSpeed="max"/>
+
+    <!-- Flows for Passive vehicles -->
+    <flow id="flow_passive_N" type="passive" begin="0" end="200" number="50" from="-E30" to="E29" departLane="free" departSpeed="max"/>
+    <flow id="flow_passive_W" type="passive" begin="0" end="200" number="50" from="-E29" to="E32" departLane="free" departSpeed="max"/>
+
+    
+</routes>

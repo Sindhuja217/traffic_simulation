@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="non-ego" guiShape="passenger" carFollowModel="EIDM" color="blue" tau="1.5" minGap="2.5" accel="2.6" decel="4.5" sigmaerror="0.1" maxSpeed="27.78" emergencyDecel="4.5" />
+    <vType id="ego" guiShape="passenger" carFollowModel="EIDM" color="red" tau="0.1" minGap="1.0" accel="6.0" decel="10.0" sigmaerror="0.5" maxSpeed="41.67" emergencyDecel="11.0" jmDriveRedSpeed="10.0" jmDriveAfterRedTime="4.0" jmDriveAfterYellowTime="4.0"/>        
+    <!-- Routes -->
+    <routeDistribution id="rd1">
+        <route id="r_0" edges="-E6 -E5 -E1 E3 E7" probability="0.2"/>
+        <route id="r_1" edges="E0 E1 E5 E6" probability="0.2"/>
+        <route id="r_2" edges="E2 E3 E7" probability="0.2"/>
+        <route id="r_3" edges="-E7 -E3 -E0" probability="0.2"/>
+        <route id="r_4" edges="-E6 -E5 -E1 -E0" probability="0.2"/>
+    </routeDistribution>
+    <flow id="non_ego_flow" type='non-ego' route='rd1' begin="0" end="20" number="10">
+    </flow>
+    <vehicle id="ego_vehicle" type='ego' depart="1" route="rd1"/>
+</routes>

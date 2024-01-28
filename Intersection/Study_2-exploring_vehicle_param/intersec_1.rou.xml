@@ -1,0 +1,18 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <vType id="ego_veh" guiShape="passenger" color="red" jmIgnoreFoeProb="1.0" carFollowModel="EIDM" tau="0.02" decel="8.0" tpreview="0.02" />
+    
+    <route id="r_0" edges="-E1 -E0" />
+    <route id="r_1" edges="E2 E1" />
+    <route id="r_2" edges="-E3 -E2" />
+    <route id="r_3" edges="E0 -E2" />
+    
+    <flow id="f_0" type="ego_veh" begin="0.00" route="r_0" end="100" number="62" />
+    <flow id="f_1" type="ego_veh" begin="0.00" route="r_3" end="110" number="63" />
+    <flow id="f_2" type="ego_veh" begin="0.00" route="r_1" end="100" number="62" />
+    <flow id="f_3" type="ego_veh" begin="0.00" route="r_2" end="110" number="63" />
+    <flow id="f_4" begin="0.00" route="r_0" end="1000.00" number="63" />
+    <flow id="f_5" begin="0.00" route="r_3" end="1000.00" number="62" />
+    <flow id="f_6" begin="0.00" route="r_2" end="1000.00" number="62" />
+    <flow id="f_7" begin="0.00" route="r_1" end="1000.00" number="63" />
+</routes>

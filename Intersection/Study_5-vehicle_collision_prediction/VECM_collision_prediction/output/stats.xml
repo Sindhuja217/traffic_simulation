@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-14 01:21:05 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.net.xml.gz"/>
+        <route-files value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.passenger.rou.xml"/>
+        <additional-files value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.poly.xml.gz"/>
+    </input>
+
+    <output>
+        <emission-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/em_op.xml"/>
+        <fcd-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/fcd_op.xml"/>
+        <fcd-output.signals value="true"/>
+        <fcd-output.distance value="true"/>
+        <fcd-output.acceleration value="true"/>
+        <full-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/full_op.xml"/>
+        <summary-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/sum_op.xml"/>
+        <lanechange-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/lane_change_op.xml"/>
+        <lanechange-output.started value="true"/>
+        <lanechange-output.ended value="true"/>
+        <lanechange-output.xy value="true"/>
+        <collision-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/collisions.xml"/>
+        <statistic-output value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\output/stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <collision.action value="remove"/>
+        <collision.stoptime value="2.00"/>
+        <collision.check-junctions value="true"/>
+    </processing>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\vinay\Desktop\ECE_699\sumo_road\INTERSECTION_FINAL\lanelet_sim\SIM_EGO_DEF\2023-12-12-14-43-21\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="51641.34" clockEnd="52346.06" clockDuration="704.72" traciDuration="0.13" realTimeFactor="0.02" vehicleUpdatesPerSecond="1.18" personUpdatesPerSecond="0.00" begin="0.00" end="15.60" duration="15.60"/>
+    <vehicles loaded="9" inserted="9" running="9" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+</statistics>
